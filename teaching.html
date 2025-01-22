@@ -1,0 +1,93 @@
+<!--
+  Author: Hendrik Roch
+  Copyright: 2025
+  This is the main page for the teaching section of my website.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Teaching</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Teaching activities of Hendrik Roch">
+    <meta name="keywords" content="teaching, classes">
+    <meta name="author" content="Hendrik Roch">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        /* Styling for course boxes */
+        .courseBox {
+            margin: 20px auto;
+            padding: 15px;
+            background-color: #f1f1f1;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            text-align: center;
+            font-size: large;
+            font-family: verdana, sans-serif;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .courseBox a {
+            color: #047857; /* Green text for links */
+            text-decoration: none;
+        }
+
+        .courseBox:hover {
+            transform: scale(1.03);
+            box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .courseBox a:hover {
+            text-decoration: underline;
+            color: #065f46; /* Slightly darker green */
+        }
+
+        /* Tailwind colors (Ensure Tailwind CSS is included) */
+        .text-green-700 {
+            color: #047857;
+        }
+
+        .text-green-800 {
+            color: #065f46;
+        }
+
+        h2.text-green-700 {
+            color: #047857;
+        }
+    </style>
+</head>
+
+<body>
+  <div id="containerFlexible">
+    <!-- header -->
+    <div class="header">
+      <h1 class="text-green-700">Teaching</h1>
+    </div>
+
+    <!-- insert navigation bar -->
+    <script id="insert_menu" src="scripts/nav.js"></script>
+  
+    <!-- main content -->
+    <div>
+      <h2 class="text-green-700">Course History</h2>
+
+      <!-- Boxes for courses -->
+      <div class="courseBox"><a href="teaching/ws25_heavyion.html" class="text-green-700">WS 25 Heavy-Ion Collision Phenomenology Journal Club (Wayne State University)</a></div>
+      <div class="courseBox"><span class="text-green-700">SS 23 Theoretische Physik II (Goethe Uni Frankfurt)</span></div>
+      <div class="courseBox"><span class="text-green-700">SS 22 Forschungssemester</span></div>
+      <div class="courseBox"><a href="teaching/ws2122_kernphysik.html" class="text-green-700">WS 21/22 Kernphysik (Uni Bielefeld)</a></div>
+      <div class="courseBox"><span class="text-green-700">SS 21 Forschungssemester</span></div>
+      <div class="courseBox"><a href="teaching/ws2021_elemphys.html" class="text-green-700">WS 20/21 Elementarteilchenphysik (Uni Bielefeld)</a></div>
+      <div class="courseBox"><a href="teaching/ss20_hydro.html" class="text-green-700">SS 20 Hydrodynamics I/II (Uni Bielefeld)</a></div>
+      <div class="courseBox"><a href="teaching/ws1920_elemphys.html" class="text-green-700">WS 19/20 Elementarteilchenphysik (Uni Bielefeld)</a></div>
+      <div class="courseBox"><a href="teaching/ss19_kernphysik.html" class="text-green-700">SS 19 Kernphysik (Uni Bielefeld)</a></div>
+      <div class="courseBox"><span class="text-green-700">WS 18/19 Forschungssemester / Vorkurs (2. Hälfte)</span></div>
+      <div class="courseBox"><a href="teaching/ss18_physik4.html" class="text-green-700">SS 18 Einführung in die Physik IV (Uni Bielefeld)</a></div>
+      <div class="courseBox"><a href="teaching/ws1718_grundpraktikum.html" class="text-green-700">WS 17/18 Grundpraktikum (Uni Bielefeld)</a></div>
+      <div class="courseBox"><a href="teaching/ss17_physik2.html" class="text-green-700">SS 17 Einführung in die Physik II (Nebenfach) (Uni Bielefeld)</a></div>
+      <div class="courseBox"><a href="teaching/ws1617_physik1.html" class="text-green-700">WS 16/17 Einführung in die Physik I (Nebenfach) (Uni Bielefeld)</a></div>
+    </div>
+  </div>
+</body>
+</html>
