@@ -152,7 +152,7 @@
     {
         "id": 2813756,
         "url": "https://inspirehep.net/literature/2813756",
-        "title": "Bayesian analysis of $(3+1)$D relativistic nuclear dynamics with the RHIC beam energy scan data",
+        "title": "Bayesian analysis of <math><mo>(</mo><mn>3</mn><mo>+</mo><mn>1</mn><mo>)</mo><mi mathvariant=\"normal\">D</mi></math> relativistic nuclear dynamics with the RHIC beam energy scan data",
         "authors": [
             "Jahan, Syed Afrid",
             "Roch, Hendrik",
@@ -264,7 +264,7 @@
     {
         "id": 2788167,
         "url": "https://inspirehep.net/literature/2788167",
-        "title": "Model emulation and closure tests for $(3+1)$D relativistic heavy-ion collisions",
+        "title": "Model emulation and closure tests for (<math><mrow><mn>3</mn><mo>+</mo><mn>1</mn></mrow></math>)D relativistic heavy-ion collisions",
         "authors": [
             "Roch, Hendrik",
             "Jahan, Syed Afrid",

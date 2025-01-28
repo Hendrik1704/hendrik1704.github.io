@@ -1,7 +1,7 @@
 <!--
   Author: Hendrik Roch
   Copyright: 2025
-  This page is under construction for the publications section of my website.
+  This page is for the publications section of my website.
 -->
 
 <!DOCTYPE html>
@@ -14,29 +14,31 @@
     <meta name="author" content="Hendrik Roch">
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        }
+      };
+    </script>
+    <script id="script_tables" src="scripts/tables.js"></script>
+    <script id="script_publications" src="scripts/publications.js"></script>
     <style>
-        /* Styling for under construction message */
-        .under-construction {
-            text-align: center;
-            margin: 50px;
-            font-size: 24px;
-            color: #047857;
-            font-family: Verdana, sans-serif;
-        }
-
-        .under-construction h1 {
-            font-size: 36px;
-            color: #065f46;
-        }
-
-        .under-construction p {
-            font-size: 20px;
-            color: #4c9a2a;
-        }
+      .pub-style a {
+        color: #047857;
+        text-decoration: none;
+      }
+  
+      .pub-style a:hover {
+        text-decoration: underline;
+        color: #065f46;
+      }
     </style>
 </head>
 
-<body>
+<body onload="makeList()">
   <div id="containerFlexible">
     <!-- header -->
     <div class="header">
@@ -47,9 +49,10 @@
     <script id="insert_menu" src="scripts/nav.js"></script>
 
     <!-- main content -->
-    <div class="under-construction">
-      <h1>This Page is Under Construction</h1>
-      <p>Check back later for updates on publications by Hendrik Roch!</p>
+    <div class="pub-style">
+      <div id="pubList">
+        <!-- publications.js will write the content using data/publications.json -->
+      </div>
     </div>
   </div>
 </body>
