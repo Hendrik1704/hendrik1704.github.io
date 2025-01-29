@@ -15,23 +15,38 @@
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles/style.css">
     <style>
-        /* Styling for under construction message */
-        .under-construction {
-            text-align: center;
-            margin: 50px;
-            font-size: 24px;
+        /* Styling for repository links */
+        .repo-links {
+            margin-top: 30px;
+            text-align: left;
+            font-size: 18px;
             color: #047857;
-            font-family: Verdana, sans-serif;
         }
 
-        .under-construction h1 {
-            font-size: 36px;
-            color: #065f46;
+        .repo-links a {
+            color: #047857;
+            text-decoration: none;
+            font-weight: bold;
         }
 
-        .under-construction p {
+        .repo-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Styling for GitHub profile link */
+        .github-link {
             font-size: 20px;
-            color: #4c9a2a;
+            color: #065f46;
+            margin-bottom: 20px;
+        }
+
+        .github-link a {
+            color: #065f46;
+            font-weight: bold;
+        }
+
+        .github-link a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -46,11 +61,32 @@
     <!-- insert navigation bar -->
     <script id="insert_menu" src="scripts/nav.js"></script>
 
-    <!-- main content -->
-    <div class="under-construction">
-      <h1>This Page is Under Construction</h1>
-      <p>Check back later for updates on software developed by Hendrik Roch!</p>
+    <div class="github-link">
+      <a href="https://github.com/Hendrik1704" target="_blank">Visit my GitHub Profile</a>
     </div>
+
+    <!-- main content -->
+    <div class="repo-links"></div> <!-- Placeholder for dynamically loaded repository links -->
   </div>
+
+  <!-- Fetching GitHub Repositories dynamically -->
+  <script>
+    fetch('https://api.github.com/users/Hendrik1704/repos')
+      .then(response => response.json())
+      .then(data => {
+        const repoLinksDiv = document.querySelector('.repo-links');
+        let repoList = '<h2 class="text-green-700">Public GitHub Repositories</h2><ul>';
+        
+        data.forEach(repo => {
+          repoList += `<li><a href="${repo.html_url}" target="_blank">${repo.name}</a></li>`;
+        });
+        
+        repoList += '</ul>';
+        repoLinksDiv.innerHTML = repoList;
+      })
+      .catch(error => {
+        console.error('Error fetching GitHub repositories:', error);
+      });
+  </script>
 </body>
 </html>
