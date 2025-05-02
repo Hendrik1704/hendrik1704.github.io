@@ -1,5 +1,26 @@
 [
     {
+        "id": 2907594,
+        "url": "https://inspirehep.net/literature/2907594",
+        "title": "Constraining hot and cold nuclear matter properties from heavy-ion collisions and deep-inelastic scattering",
+        "authors": [
+            "Andronic, Anton",
+            "Borghini, Nicolas",
+            "Du, Xiaojian",
+            "Klein-B\u00f6sing, Christian",
+            "Krupczak, Renata",
+            "Roch, Hendrik",
+            "Schlichting, S\u00f6ren"
+        ],
+        "author": "Andronic, Anton; Borghini, Nicolas; Du, Xiaojian; Klein-B\u00f6sing, Christian; Krupczak, Renata; Roch, Hendrik; Schlichting, S\u00f6ren",
+        "first_author_affiliation": "Munster U.",
+        "earliest_date": "2025-04-03",
+        "date": "April 03, 2025",
+        "earliest_year": 2025,
+        "arxiv_eprint": "2504.02726",
+        "abstract": "We perform a global analysis of deep-inelastic $e+p$ scattering data from HERA and transverse energy distributions in $p+p$ and $p+\\Pb$ collisions, alongside charged hadron multiplicities in $\\Pb+\\Pb$ collisions at $\\sqrt{s_{\\mathrm{NN}}} = 5.02\\;\\mathrm{TeV}$ from ALICE. Using a saturation-based initial state model grounded in high-energy QCD, we determine the early-time non-equilibrium shear viscosity to entropy density ratio $\\eta/s$ of the quark-gluon plasma. Our results provide new insights into the early-time transport properties of nuclear matter under extreme conditions."
+    },
+    {
         "id": 2906076,
         "url": "https://inspirehep.net/literature/2906076",
         "title": "Enhanced signal of momentum broadening in hard splittings for $\\gamma$-tagged jets in a multistage approach",
@@ -24,7 +45,7 @@
             "Ji, Y.",
             "Jonas, F.",
             "Kasper, L.",
-            "Kordell, M.",
+            "Kordell, M., II",
             "Kumar, A.",
             "Kunnawalkam-Elayavalli, R.",
             "Latessa, J.",
@@ -57,7 +78,8 @@
             "Wu, X.",
             "Zhao, W."
         ],
-        "author": "Tachibana, Y.; Sirimanna, C.; Majumder, A.; Angerami, A.; Arora, R.; Bass, S.A.; Chen, Y.; Datta, R.; Du, L.; Ehlers, R.; Elfner, H.; Fries, R.J.; Gale, C.; He, Y.; Jacak, B.V.; Jacobs, P.M.; Jeon, S.; Ji, Y.; Jonas, F.; Kasper, L.; Kordell, M.; Kumar, A.; Kunnawalkam-Elayavalli, R.; Latessa, J.; Lee, Y.-J.; Lemmon, R.; Luzum, M.; Mak, S.; Mankolli, A.; Martin, C.; Mehryar, H.; Mengel, T.; Nattrass, C.; Norman, J.; Parker, C.; Paquet, J.-F.; Putschke, J.H.; Roch, H.; Roland, G.; Schenke, B.; Schwiebert, L.; Sengupta, A.; Shen, C.; Singh, M.; Soeder, D.; Soltz, R.A.; Soudi, I.; Velkovska, J.; Vujanovic, G.; Wang, X.-N.; Wu, X.; Zhao, W.",
+        "author": "Tachibana, Y.; Sirimanna, C.; Majumder, A.; Angerami, A.; Arora, R.; Bass, S.A.; Chen, Y.; Datta, R.; Du, L.; Ehlers, R.; Elfner, H.; Fries, R.J.; Gale, C.; He, Y.; Jacak, B.V.; Jacobs, P.M.; Jeon, S.; Ji, Y.; Jonas, F.; Kasper, L.; Kordell, M., II; Kumar, A.; Kunnawalkam-Elayavalli, R.; Latessa, J.; Lee, Y.-J.; Lemmon, R.; Luzum, M.; Mak, S.; Mankolli, A.; Martin, C.; Mehryar, H.; Mengel, T.; Nattrass, C.; Norman, J.; Parker, C.; Paquet, J.-F.; Putschke, J.H.; Roch, H.; Roland, G.; Schenke, B.; Schwiebert, L.; Sengupta, A.; Shen, C.; Singh, M.; Soeder, D.; Soltz, R.A.; Soudi, I.; Velkovska, J.; Vujanovic, G.; Wang, X.-N.; Wu, X.; Zhao, W.",
+        "first_author_affiliation": "Akita Intl. U.",
         "earliest_date": "2025-03-30",
         "date": "March 30, 2025",
         "earliest_year": 2025,
@@ -219,7 +241,7 @@
     {
         "id": 2843458,
         "url": "https://inspirehep.net/literature/2843458",
-        "title": "A Gaussian Process Generative Model for QCD Equation of State",
+        "title": "Gaussian-process generative model for the QCD equation of state",
         "authors": [
             "Gong, Jiaxuan",
             "Roch, Hendrik",
@@ -230,8 +252,13 @@
         "earliest_date": "2024-10-29",
         "date": "October 29, 2024",
         "earliest_year": 2024,
+        "doi": "10.1103/PhysRevC.111.044912",
         "arxiv_eprint": "2410.22160",
-        "abstract": "We develop a generative model for the nuclear matter equation of state at zero net baryon density using the Gaussian Process Regression method. We impose first-principles theoretical constraints from lattice QCD and hadron resonance gas at high- and low-temperature regions, respectively. By allowing the trained Gaussian Process Regression model to vary freely near the phase transition region, we generate random smooth cross-over equations of state with different speeds of sound that do not rely on specific parameterizations. We explore a collection of experimental observable dependencies on the generated equations of state, which paves the groundwork for future Bayesian inference studies to use experimental measurements from relativistic heavy-ion collisions to constrain the nuclear matter equation of state."
+        "abstract": "We develop a generative model for the nuclear matter equation\u00a0of state at zero net baryon density using the Gaussian process regression method. We impose first-principles theoretical constraints from lattice quantum chromodynamics and hadron resonance gas at high- and low-temperature regions, respectively. By allowing the trained Gaussian process regression model to vary freely near the phase transition region, we generate random smooth crossover equations\u00a0of state with different speeds of sound that do not rely on specific parametrizations. We explore a collection of experimental observable dependencies on the generated equations\u00a0of state, which paves the groundwork for future Bayesian inference studies to use experimental measurements from relativistic heavy-ion collisions to constrain the nuclear matter equation\u00a0of state.",
+        "journal": "Phys.Rev.C",
+        "volume": "111",
+        "issue": "4",
+        "pub_year": "2025"
     },
     {
         "id": 2818238,
