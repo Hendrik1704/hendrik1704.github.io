@@ -1,0 +1,251 @@
+<!--
+  Author: Hendrik Roch
+  Copyright: 2025
+  This is the sub-page for the Heavy-Ion Physics Journal Club (WS 25) at Wayne State University.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Heavy-Ion Physics Journal Club (SS 25)</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Heavy-Ion Physics Journal Club at Wayne State University (WS 25)">
+    <meta name="keywords" content="heavy-ion physics, journal club, Wayne State University">
+    <meta name="author" content="Hendrik Roch">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        /* Styling for journal club page */
+        .journal-club-container {
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f1f1f1;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            font-family: Verdana, sans-serif;
+        }
+
+        .journal-club-container h1, .journal-club-container h2 {
+            color: #047857; /* Green-themed headers */
+        }
+
+        .journal-club-container p {
+            font-size: 18px;
+            color: #065f46; /* Dark green text */
+        }
+
+        .journal-club-container ul {
+            list-style-type: square;
+            padding-left: 20px;
+            color: #4c9a2a; /* Slightly lighter green for list items */
+        }
+
+        .journal-club-container a {
+            color: #047857;
+            text-decoration: none;
+        }
+
+        .journal-club-container a:hover {
+            text-decoration: underline;
+            color: #065f46;
+        }
+
+        .schedule-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .schedule-table th, .schedule-table td {
+            border: 1px solid #d4d4d4;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .schedule-table th {
+            background-color: #047857;
+            color: white;
+        }
+
+        .schedule-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+
+<body>
+  <div id="containerFlexible">
+    <!-- header -->
+    <div class="header">
+      <h1 class="text-green-700">Heavy-Ion Physics Journal Club (SS 25)</h1>
+    </div>
+
+    <!-- insert navigation bar -->
+    <script id="insert_menu" src="scripts/nav.js"></script>
+
+    <!-- main content -->
+    <div class="journal-club-container">
+      <!-- Introduction -->
+      <h2>About the Journal Club</h2>
+      <p>
+        Welcome to the Heavy-Ion Physics Journal Club at Wayne State University for the Summer Semester 2025! 
+        This club provides an opportunity to discuss recent advances in heavy-ion collision phenomenology 
+        and related topics in nuclear and particle physics.
+      </p>
+
+      <!-- Schedule -->
+      <h2>Schedule</h2>
+      <p>
+        The journal club meets weekly on <strong>Fridays from 12:30 PM to 1:30 PM</strong> in Room 312, 
+        Physics Building, Wayne State University.
+      </p>
+      <table class="schedule-table">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Presenter</th>
+            <th>Topic</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>May 09, 2025</td>
+            <td>Sayed Afrid Jahan, Chun Shen</td>
+            <td>
+              Quark Matter 2025 - Highlights (<a href="https://drive.google.com/file/d/1T-OEwK2m9xqlfZ_vJ9R2z5XEBc_TPP49/view?usp=sharing" target="_blank">slides Afrid</a>), Links to Chun's highlights: 
+              <a href="https://indico.cern.ch/event/1334113/contributions/6350970/" target="_blank">Experimental discovery of the nuclear shape phase transition and nuclear structure on ultrashort timescales at the LHC with ALICE</a>,
+              <a href="https://indico.cern.ch/event/1334113/contributions/6289791/" target="_blank">Simulating stochastic diffusion in critical and near-critical fluids in (3+1) dimensions</a>
+              <a href="https://indico.cern.ch/event/1334113/contributions/6350960/" target="_blank">First direct measurement of radial flow in heavy-ion collisions with ALICE</a>
+            </td>
+          </tr>
+          <tr>
+            <td>May 16, 2025</td>
+            <td><strong>Hendrik Roch</strong></td>
+            <td>Quark Matter 2025 - Highlights</td>
+          </tr>
+          <tr>
+            <td>May 23, 2025</td>
+            <td><strong>Ritoban Datta</strong></td>
+            <td><strong>TBD</strong></td>
+          </tr>
+          <tr>
+            <td>May 30, 2025</td>
+            <td><strong>Naveenkumar Senthilkumar</strong></td>
+            <td><strong>TBD</strong></td>
+          </tr>
+          <tr>
+            <td>Jun 06, 2025</td>
+            <td><strong>Akash Raj</strong></td>
+            <td><strong>TBD</strong></td>
+          </tr>
+          <tr>
+            <td>Jun 13, 2025</td>
+            <td><strong>No meeting</strong></td>
+            <td><strong>No meeting</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Topics -->
+      <h2>Topic Suggestions</h2>
+      <ul>
+        <li>
+            Initial state physics in heavy-ion collisions
+            <ul>
+                <li><a href="https://inspirehep.net/literature/2634713" target="_blank">Bayesian quantification of strongly-interacting matter with color glass condensate initial conditions</a></li>
+                <li><a href="https://inspirehep.net/literature/2790840" target="_blank">Heavy-Ion Collisions as Probes of Nuclear Structure</a></li>
+                <li><a href="https://inspirehep.net/literature/2800499" target="_blank">Hydrodynamic-like behaviour of glasma</a></li>
+                <li><a href="https://inspirehep.net/literature/2801937" target="_blank">MC-EKRT: Monte Carlo event generator with saturated minijet production for initializing 3+1 D fluid dynamics in high energy nuclear collisions</a></li>
+            </ul>
+        </li>
+        <li>
+            Pre-equilibrium physics
+            <ul>
+                <li><a href="https://inspirehep.net/literature/2829725" target="_blank">Far-from-equilibrium attractors with Full Relativistic Boltzmann approach in 3+1 D: moments of distribution function and anisotropic flows vn</a></li>
+                <li><a href="https://inspirehep.net/literature/2807712" target="_blank">Comparing matching prescriptions between pre-equilibrium and hydrodynamic models in high-energy nuclear collisions</a></li>
+            </ul>
+        </li>
+        <li>
+            Hydrodynamic modeling
+            <ul>
+                <li><a href="https://inspirehep.net/literature/2767143" target="_blank">Accessing the speed of sound in relativistic ultracentral nucleus-nucleus collisions using the mean transverse momentum</a></li>
+                <li><a href="https://inspirehep.net/literature/2768366" target="_blank">BHAC-QGP: three-dimensional MHD simulations of relativistic heavy-ion collisions, I. Methods and tests</a></li>
+                <li><a href="https://inspirehep.net/literature/2768362" target="_blank">BHAC-QGP: three-dimensional MHD simulations of relativistic heavy-ion collisions, II. Application to Au-Au collisions</a></li>
+                <li><a href="https://inspirehep.net/literature/2822112" target="_blank">Sources of longitudinal flow decorrelations in high-energy nuclear collisions</a></li>
+                <li><a href="https://inspirehep.net/literature/2011825" target="_blank">The applicability of hydrodynamics in heavy ion collisions at SqrtsNN = 2.4-7.7 GeV</a></li>
+            </ul>
+        </li>
+        <li>
+            Hadronization mechanisms
+            <ul>
+                <li><a href="https://inspirehep.net/literature/1118440" target="_blank">Particlization in hybrid models</a></li>
+                <li><a href="https://inspirehep.net/literature/1753714" target="_blank">Particle Production via Strings and Baryon Stopping within a Hadronic Transport Approach</a></li>
+                <li><a href="https://inspirehep.net/literature/1413114" target="_blank">Jet Fragmentation via Recombination of Parton Showers</a></li>
+            </ul>
+        </li>
+        <li>
+            Hadronic transport
+            <ul>
+                <li><a href="https://inspirehep.net/literature/1791146" target="_blank">Particle productions and anisotropic flows from the AMPT model for Cu+Au collisions at SqrtsNN = 200 GeV</a></li>
+                <li><a href="https://inspirehep.net/literature/1939970" target="_blank">Further developments of a multi-phase transport model for relativistic nuclear collisions</a></li>
+            </ul>
+        </li>
+        <li>
+            Jets
+            <ul>
+                <li><a href="https://inspirehep.net/literature/2868884" target="_blank">Modified Coherence and the Transverse Extent of Jets</a></li>
+            </ul>
+        </li>
+        <li>
+            Photons & Dileptons
+            <ul>
+                <li><a href="https://inspirehep.net/literature/2168969" target="_blank">The exploration of hot and dense nuclear matter: introduction to relativistic heavy-ion physics (Sec. 5.11)</a></li>
+            </ul>
+        </li>
+        <li>
+            Balance functions
+            <ul>
+                <li><a href="https://inspirehep.net/literature/2163227" target="_blank">Using baryonic charge balance functions to resolve questions about the baryo-chemistry of the quark gluon plasma</a></li>
+            </ul>
+        </li>
+        <li>
+            Heavy-flavor physics
+            <ul>
+                <li><a href="https://inspirehep.net/literature/2868872" target="_blank">Quarkonia and Deconfined Quark-Gluon Matter in Heavy-Ion Collisions</a></li>
+            </ul>
+        </li>
+        <li>
+            Equation of State
+            <ul>
+                <li><a href="https://inspirehep.net/literature/2843458" target="_blank">A Gaussian Process Generative Model for QCD Equation of State</a></li>
+            </ul>
+        </li>
+        <li>
+            HBT
+            <ul>
+                <li><a href="https://inspirehep.net/literature/655507" target="_blank">Concepts of heavy ion physics (Sec. 5)</a></li>
+            </ul>
+        </li>
+      </ul>
+
+      <h2>Longer Reviews</h2>
+        <ul>
+            <li><a href="https://inspirehep.net/literature/2747750" target="_blank">Progress and Challenges in Small Systems</a></li>
+            <li><a href="https://inspirehep.net/literature/2748749" target="_blank">Jet Quenching: From Theory to Simulation</a></li>
+            <li><a href="https://inspirehep.net/literature/2758681" target="_blank">The QCD phase diagram and Beam Energy Scan physics: a theory overview</a></li>
+            <li><a href="https://inspirehep.net/literature/2805681" target="_blank">QCD masterclass lectures on jet physics and machine learning</a></li>
+            <li><a href="https://inspirehep.net/literature/2806468" target="_blank">A Decade of Collectivity in Small Systems</a></li>
+            <li><a href="https://inspirehep.net/literature/655507" target="_blank">Concepts of heavy ion physics</a></li>
+            <li><a href="https://inspirehep.net/literature/2168969" target="_blank">The exploration of hot and dense nuclear matter: introduction to relativistic heavy-ion physics</a></li>
+        </ul>
+
+      <!-- Useful Links -->
+      <h2>Useful Links</h2>
+      <ul>
+        <li><a href="https://arxiv.org/">arXiv</a></li>
+        <li><a href="https://inspirehep.net/">iNSPIRE HEP</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
