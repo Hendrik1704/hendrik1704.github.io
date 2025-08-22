@@ -1,5 +1,22 @@
 [
     {
+        "id": 2958238,
+        "url": "https://inspirehep.net/literature/2958238",
+        "title": "Mode-by-mode evolution of Pb-Pb collisions at 5.02 TeV in a hybrid model",
+        "authors": [
+            "Krupczak, Renata",
+            "Borghini, Nicolas",
+            "Roch, Hendrik"
+        ],
+        "author": "Krupczak, Renata; Borghini, Nicolas; Roch, Hendrik",
+        "first_author_affiliation": "Bielefeld U.",
+        "earliest_date": "2025-08-06",
+        "date": "August 06, 2025",
+        "earliest_year": 2025,
+        "arxiv_eprint": "2508.05336",
+        "abstract": "We determine the average state and the uncorrelated modes that characterize the event-by-event fluctuations of the initial state in two typical centrality classes of Pb-Pb collisions at 5.02 TeV. We find that modes in a narrow central bin are similar to those in events at fixed vanishing impact parameter, while those in a mid-peripheral centrality class are affected by the impact-parameter variation. We study how each fluctuation mode affects observables both in the initial state and in the final state of the collisions, at the end of a state-of-the-art boost-invariant hybrid evolution with KoMPoST + MUSIC + iSS + SMASH, and show that implementing a hadronic transport cascade in such a mode-by-mode analysis with reasonable statistical noise is costly but feasible."
+    },
+    {
         "id": 2950743,
         "url": "https://inspirehep.net/literature/2950743",
         "title": "Global Bayesian Analysis of $\\mathrm{J}/\u03c8$ Photoproduction on Proton and Lead Targets",
@@ -185,7 +202,7 @@
         "date": "April 03, 2025",
         "earliest_year": 2025,
         "arxiv_eprint": "2504.02726",
-        "abstract": "We perform a global analysis of deep-inelastic $e+p$ scattering data from HERA and transverse energy distributions in $p+p$ and $p+\\Pb$ collisions, alongside charged hadron multiplicities in $\\Pb+\\Pb$ collisions at $\\sqrt{s_{\\mathrm{NN}}} = 5.02\\;\\mathrm{TeV}$ from ALICE. Using a saturation-based initial state model grounded in high-energy QCD, we determine the early-time non-equilibrium shear viscosity to entropy density ratio $\\eta/s$ of the quark-gluon plasma. Our results provide new insights into the early-time transport properties of nuclear matter under extreme conditions."
+        "abstract": "We perform a global analysis of deep-inelastic $e+p$ scattering data from HERA and transverse energy distributions in $p+p$ and $p+\\mathrm{Pb}$ collisions, alongside charged hadron multiplicities in $\\mathrm{Pb}+\\mathrm{Pb}$ collisions at $\\sqrt{s_{\\mathrm{NN}}} = 5.02\\;\\mathrm{TeV}$ from ALICE. Using a saturation-based initial state model grounded in high-energy QCD, we determine the early-time non-equilibrium shear viscosity to entropy density ratio $\u03b7/s$ of the quark-gluon plasma. Our results provide new insights into the early-time transport properties of nuclear matter under extreme conditions."
     },
     {
         "id": 2906076,
