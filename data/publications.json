@@ -1,5 +1,25 @@
 [
     {
+        "id": 2964948,
+        "url": "https://inspirehep.net/literature/2964948",
+        "title": "Nuclear suppression in diffractive vector meson production within the color glass condensate framework",
+        "authors": [
+            "M\u00e4ntysaari, Heikki",
+            "Roch, Hendrik",
+            "Salazar, Farid",
+            "Schenke, Bj\u00f6rn",
+            "Shen, Chun",
+            "Zhao, Wenbin"
+        ],
+        "author": "M\u00e4ntysaari, Heikki; Roch, Hendrik; Salazar, Farid; Schenke, Bj\u00f6rn; Shen, Chun; Zhao, Wenbin",
+        "first_author_affiliation": "Jyvaskyla U., Helsinki U.",
+        "earliest_date": "2025-08-29",
+        "date": "August 29, 2025",
+        "earliest_year": 2025,
+        "arxiv_eprint": "2508.21562",
+        "abstract": "We perform a global Bayesian analysis of diffractive $\\mathrm{J}/\u03c8$ production in $\u03b3+p$ and $\u03b3+\\mathrm{Pb}$ collisions within a Color Glass Condensate based framework. Using data from HERA and the LHC, we find that a simultaneous description of $\u03b3+p$ and $\u03b3+\\mathrm{Pb}$ observables is challenging. Introducing a global $K$-factor to account for theoretical uncertainties improves the agreement with data and enhances the framework's predictive power. We present predictions for integrated $\\mathrm{J}/\u03c8$ cross sections at different photon-nucleus energies and study their $A$-dependence relative to a no-saturation baseline, quantifying nuclear suppression and providing insights into the onset of saturation effects."
+    },
+    {
         "id": 2958238,
         "url": "https://inspirehep.net/literature/2958238",
         "title": "Mode-by-mode evolution of Pb-Pb collisions at 5.02 TeV in a hybrid model",
