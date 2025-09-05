@@ -38,13 +38,14 @@ def parse_data(data):
         #    record.et_al = ''
 
         # First author affiliation
-        if 'affiliations' in hit['metadata']['authors'][0]:
-            record.first_author_affiliation = hit['metadata']['authors'][0]['affiliations'][0]['value']
-            if len(hit['metadata']['authors'][0]['affiliations']) > 1:
-                for i in range(1, len(hit['metadata']['authors'][0]['affiliations'])):
-                    record.first_author_affiliation += ', ' + hit['metadata']['authors'][0]['affiliations'][i]['value']
-        else:
-            record.first_author_affiliation = ''
+        #if 'affiliations' in hit['metadata']['authors'][0]:
+        #    record.first_author_affiliation = hit['metadata']['authors'][0]['affiliations'][0]['value']
+        #    if len(hit['metadata']['authors'][0]['affiliations']) > 1:
+        #        for i in range(1, len(hit['metadata']['authors'][0]['affiliations'])):
+        #            record.first_author_affiliation += ', ' + hit['metadata']['authors'][0]['affiliations'][i]['value']
+        #else:
+        #    record.first_author_affiliation = ''
+        record.first_author_affiliation = ''
 
         record.earliest_date = hit['metadata']['earliest_date']
         record.date = datetime.strptime(record.earliest_date, "%Y-%m-%d").strftime("%B %d, %Y")
