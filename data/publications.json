@@ -1,5 +1,24 @@
 [
     {
+        "id": 2969992,
+        "url": "https://inspirehep.net/literature/2969992",
+        "title": "Nuclear Suppression in Diffractive Vector Meson Production within the Color Glass Condensate Framework",
+        "authors": [
+            "M\u00e4ntysaari, Heikki",
+            "Roch, Hendrik",
+            "Salazar, Farid",
+            "Schenke, Bj\u00f6rn",
+            "Shen, Chun",
+            "Zhao, Wenbin"
+        ],
+        "author": "M\u00e4ntysaari, Heikki; Roch, Hendrik; Salazar, Farid; Schenke, Bj\u00f6rn; Shen, Chun; Zhao, Wenbin",
+        "earliest_date": "2025-09-16",
+        "date": "September 16, 2025",
+        "earliest_year": 2025,
+        "arxiv_eprint": "2509.13015",
+        "abstract": "We extend a recent global Bayesian analysis of diffractive $\\mathrm{J}/\u03c8$ production in $\u03b3+p$ and $\u03b3+\\mathrm{Pb}$ collisions within the color glass condensate (CGC) framework to investigate potential modifications of the nucleon structure inside nuclei. To this end, we perform fits that allow the effective nucleon structure parameters in Pb nuclei to differ from those of free protons. This approach directly addresses the question of whether the proton's spatial gluon distribution at intermediate to large $x$ is modified in the nuclear environment. We compare results obtained with shared and independent nucleon structure parameters and assess the impact on the simultaneous description of $\u03b3+p$ data from HERA and the LHC, as well as $\u03b3+\\mathrm{Pb}$ data from the LHC. Our findings show that there is no hint of difference in the nucleon structure beyond those already present in the CGC when embedding nucleons inside a nuclear environment."
+    },
+    {
         "id": 2964948,
         "url": "https://inspirehep.net/literature/2964948",
         "title": "Nuclear suppression in diffractive vector meson production within the color glass condensate framework",
