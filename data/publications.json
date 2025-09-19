@@ -1,5 +1,20 @@
 [
     {
+        "id": 2971013,
+        "url": "https://inspirehep.net/literature/2971013",
+        "title": "Learning Informed Prior Distributions with Normalizing Flows for Bayesian Analysis",
+        "authors": [
+            "Roch, Hendrik",
+            "Shen, Chun"
+        ],
+        "author": "Roch, Hendrik; Shen, Chun",
+        "earliest_date": "2025-09-18",
+        "date": "September 18, 2025",
+        "earliest_year": 2025,
+        "arxiv_eprint": "2509.14911",
+        "abstract": "We investigate the use of normalizing flow (NF) models as flexible priors in Bayesian inference with Markov Chain Monte Carlo (MCMC) sampling. Trained on posteriors from previous analyses, these models can be used as informative priors, capturing non-trivial distributions and correlations, in subsequent inference tasks. We compare different training strategies and loss functions, finding that training based on Kullback-Leibler (KL) divergence and unsupervised learning consistently yield the most accurate reproductions of reference distributions. Applied in sequential Bayesian workflows, MCMC with the NF-based priors reproduces the results of one-shot joint inferences well, provided the target distributions are unimodal. In cases with pronounced multi-modality or dataset tension, distortions may arise, underscoring the need for caution in multi-stage Bayesian inference. A comparison between the pocoMC MCMC sampler and the standard emcee sampler further demonstrates the importance of advanced and robust algorithms for exploring the posterior space. Overall, our results establish NF-based priors as a practical and efficient tool for sequential Bayesian inference in high-dimensional parameter spaces."
+    },
+    {
         "id": 2969992,
         "url": "https://inspirehep.net/literature/2969992",
         "title": "Nuclear Suppression in Diffractive Vector Meson Production within the Color Glass Condensate Framework",
