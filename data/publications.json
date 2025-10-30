@@ -1,5 +1,24 @@
 [
     {
+        "id": 3075091,
+        "url": "https://inspirehep.net/literature/3075091",
+        "title": "(3+1)D Bayesian analysis of RHIC BES data",
+        "authors": [
+            "Jahan, Syed Afrid",
+            "Roch, Hendrik",
+            "Shen, Chun"
+        ],
+        "author": "Jahan, Syed Afrid; Roch, Hendrik; Shen, Chun",
+        "earliest_date": "2025-10-11",
+        "date": "October 11, 2025",
+        "earliest_year": 2025,
+        "doi": "10.1016/j.jspc.2025.100209",
+        "abstract": "We highlight our work on (3+1)D Bayesian analysis of data from the Relativistic Heavy-ion Collisions (RHIC) at the Beam Energy Scan (BES) program. By employing different Gaussian Process (GP) emulators to explore the model parameter space, we obtain and compare posterior distributions for the Quark-Gluon Plasma\u2019s (QGP) specific shear and bulk viscosity. We demonstrate that the accuracy of the Gaussian Process emulation plays an important role in constraining the QGP viscosity.",
+        "journal": "J.Subatomic Part.Cosmol.",
+        "volume": "4",
+        "pub_year": "2025"
+    },
+    {
         "id": 3064738,
         "url": "https://inspirehep.net/literature/3064738",
         "title": "Transport-based initial conditions for heavy-ion collisions at finite densities",
