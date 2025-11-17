@@ -259,8 +259,12 @@
         "earliest_date": "2025-07-01",
         "date": "July 01, 2025",
         "earliest_year": 2025,
+        "doi": "10.1051/epjconf/202533905002",
         "arxiv_eprint": "2507.00905",
-        "abstract": "Prompt photons are important yet challenging to observe in relativistic heavy-ion collisions, as they are produced in the early stages and traverse almost the entire QGP medium without interaction. Experimental analyses typically employ isolation cuts, in the hope to identify prompt photons. Most theoretical studies consider only events with actual prompt photons, assuming no contribution from isolated non-prompt photons to reduce computational cost. For the first time, we present a study that compares simulation results generated using inclusive (bremsstrahlung) and prompt-photon events with multiple experimental observables for both $p-p$ and $Pb-Pb$ collisions at $5.02$ TeV. Simulations are carried out using the multi-stage JETSCAPE framework tuned to describe the quenching of jets and hadrons. Isolated non-prompt photons are generated in hard photon bremsstrahlung, where the photon is radiated at a sufficient angle to the jet. Several photon triggered jet and jet substructure observables show significant contributions from inclusive photons, yielding an improvement in comparison with experimental data. Novel photon triggered jet substructure observables are also expected to show new structures, yet to be detected in experiment. This effort examines the significance of isolated non-prompt photons using parameters tuned for a simultaneous description of the leading hadron and jet spectrum, and thus provides an independent verification of the multistage evolution framework."
+        "abstract": "Prompt photons are important yet challenging to observe in relativistic heavy-ion collisions, as they are produced in the early stages and traverse almost the entire QGP medium without interaction. Experimental analyses typically employ isolation cuts, in the hope to identify prompt photons. Most theoretical studies consider only events with actual prompt photons, assuming no contribution from isolated non-prompt photons to reduce computational cost. For the first time, we present a study that compares simulation results generated using inclusive (bremsstrahlung) and prompt-photon events with multiple experimental observables for both p \u2212 p and Pb \u2212 Pb collisions at 5.02 TeV. Simulations are carried out using the multi-stage JETSCAPE framework tuned to describe the quenching of jets and hadrons. Isolated non-prompt photons are generated in hard photon bremsstrahlung, where the photon is radiated at a sufficient angle to the jet. Several photon triggered jet and jet substructure observables show significant contributions from inclusive photons, yielding an improvement in comparison with experimental data. Novel photon triggered jet substructure observables are also expected to show new structures, yet to be detected in experiment. This effort examines the significance of isolated nonprompt photons using parameters tuned for a simultaneous description of the leading hadron and jet spectrum, and thus provides an independent verification of the multistage evolution framework.",
+        "journal": "EPJ Web Conf.",
+        "volume": "339",
+        "pub_year": "2025"
     },
     {
         "id": 2937170,
@@ -324,8 +328,12 @@
         "earliest_date": "2025-06-19",
         "date": "June 19, 2025",
         "earliest_year": 2025,
+        "doi": "10.1051/epjconf/202533902017",
         "arxiv_eprint": "2506.16344",
-        "abstract": "We investigate the impact of the hadronic phase on jet quenching in nuclear collider experiments, an open question in heavy-ion physics. Previous studies in a simplified setup suggest that hadronic interactions could have significant effects, but a systematic analysis is needed. Using the X-SCAPE event generator with the SMASH afterburner, we study the role of hadronic rescattering on jet fragmentation hadrons. Applying this framework to $e^++e^-$ collisions, we demonstrate that even in small systems with limited particle production, hadronic interactions lead to measurable modifications in final-state hadronic and jet observables by comparing scenarios with and without afterburner rescattering."
+        "abstract": "We investigate the impact of the hadronic phase on jet quenching in nuclear collider experiments, an open question in heavy-ion physics. Previous studies in a simplified setup suggest that hadronic interactions could have significant effects, but a systematic analysis is needed. Using the X-SCAPE event generator with the SMASH afterburner, we study the role of hadronic rescattering on jet fragmentation hadrons. Applying this framework to e+ + e\u2212 collisions, we demonstrate that even in small systems with limited particle production, hadronic interactions lead to measurable modifications in final-state hadronic and jet observables by comparing scenarios with and without after-burner rescattering.",
+        "journal": "EPJ Web Conf.",
+        "volume": "339",
+        "pub_year": "2025"
     },
     {
         "id": 2907594,
