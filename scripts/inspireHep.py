@@ -3,16 +3,12 @@ import os
 import urllib.request
 from datetime import datetime
 
-# function to get  data from the InspireHEP api query
+# function to get data from the InspireHEP api query
 def get_inspireHep_data(url):
-    try:
-        with open('inspireHep.json', 'r') as f:
-            data = json.load(f)
-        return data
-    except FileNotFoundError:
-        pass
-
+    # Always fetch fresh data from InspireHEP
     data = json.loads(urllib.request.urlopen(url).read().decode('utf-8'))
+
+    # Optionally cache the last response for debugging
     with open('inspireHep.json', 'w') as f:
         json.dump(data, f, indent=4)
 
@@ -111,6 +107,54 @@ def parse_data(data):
     return records
 
 
+def records_to_dicts(records):
+    """Convert list of record objects to list of plain dicts, dropping empty values."""
+    result = []
+    for record in records:
+        rec_dict = {k: v for k, v in record.__dict__.items() if v}
+        result.append(rec_dict)
+    return result
+
+
+# helper to load existing JSON list (if present)
+def load_existing_records(path):
+    try:
+        with open(path, 'r') as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return []
+
+
+def merge_records_by_id(existing_records, new_records):
+    """Merge new InspireHEP records into existing ones, matching by Inspire id.
+
+    - Existing records are kept.
+    - If an id already exists, its entry is updated with any new fields
+      (e.g. journal info when a preprint becomes published).
+    - New ids are appended.
+    """
+    merged = {}
+
+    # Start with existing records
+    for rec in existing_records:
+        rec_id = rec.get('id')
+        if rec_id is not None:
+            merged[rec_id] = rec
+
+    # Apply/insert new records
+    for rec in new_records:
+        rec_id = rec.get('id')
+        if rec_id is None:
+            continue
+        if rec_id in merged:
+            # Update existing entry with any new/changed fields
+            merged[rec_id].update(rec)
+        else:
+            merged[rec_id] = rec
+
+    return list(merged.values())
+
+
 # function to print the records to a JSON file
 def print_records_json(records, output_json):
     for record in records:
@@ -126,7 +170,7 @@ def count_records_json(output_json):
 
 def main():
     # url query
-    url = 'https://inspirehep.net/api/literature?sort=mostrecent&size=250&page=1&q=a%20H.Roch.1&ui-citation-summary=false'
+    url = 'https://inspirehep.net/api/literature?sort=mostrecent&size=250&page=1&q=a%20Hendrik.Roch.1&ui-citation-summary=false'
 
     # file paths
     output_temp = '../data/publications_temp.json'
@@ -139,33 +183,29 @@ def main():
     print('------------------------------------')
 
     # creates our json data from the inspireHep data
-    # puts it in a temp file
     records = parse_data(data)
-    print_records_json(records, output_temp)
+    new_records = records_to_dicts(records)
 
-    # counts the number of records in the new (temp) file
-    # and in the old file, from the active directory
-    try:
-        with open(output_json, 'r') as f:
-            old_count = count_records_json(output_json)
-            new_count = count_records_json(output_temp)
-            print('Old count:', old_count)
-            print('New count:', new_count)
-    except FileNotFoundError:
-        print('Error:  File', output_json, 'not found.')
-        exit(1)
+    # load existing publications and merge by Inspire id
+    existing_records = load_existing_records(output_json)
+    old_count = len(existing_records)
 
-    # if there are fewer new records than old records, this
-    # is considered an error
+    merged_records = merge_records_by_id(existing_records, new_records)
+    new_count = len(merged_records)
+
+    print('Old count:', old_count)
+    print('New count after merge:', new_count)
     if new_count > old_count:
-        print('New json file has more records than the old json file:', new_count - old_count)
+        print('There are', new_count - old_count, 'new or updated records.')
     elif new_count == old_count:
-        print('New json file has the same number of records as the old json file.')
-    else:
-        print('Error: New json file has fewer records than the old json file.')
-        exit(2)
+        print('Record count unchanged; existing entries may have been updated.')
 
-    print_records_json(records, output_json)
+    # write merged records to temp and final files
+    with open(output_temp, 'w') as f:
+        json.dump(merged_records, f, indent=4)
+
+    with open(output_json, 'w') as f:
+        json.dump(merged_records, f, indent=4)
 
     # removes the temp files
     try:
