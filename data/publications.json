@@ -48,7 +48,7 @@
             "Jeon, S.",
             "Ji, Y.",
             "Jonas, F.",
-            "Kordell, M.",
+            "Kordell, M., II",
             "Kumar, A.",
             "Kunnawalkam-Elayavalli, R.",
             "Latessa, J.",
@@ -80,12 +80,18 @@
             "Zhang, J.",
             "Zhao, W."
         ],
-        "author": "Roch, H.; Pihan, G.; Monnai, A.; Ryu, S.; Senthilkumar, N.; Staudenmaier, J.; Elfner, H.; Schenke, B.; Putschke, J.H.; Shen, C.; Bass, S.A.; Chartier, M.; Chen, Y.; Datta, R.; Dolan, R.; Du, L.; Ehlers, R.; Fries, R.J.; Gale, C.; Hangal, D.A.; Jacak, B.V.; Jacobs, P.M.; Jeon, S.; Ji, Y.; Jonas, F.; Kordell, M.; Kumar, A.; Kunnawalkam-Elayavalli, R.; Latessa, J.; Lee, Y.-J.; Luzum, M.; Majumder, A.; Mak, S.; Mankolli, A.; Martin, C.; Mehryar, H.; Mengel, T.; Nattrass, C.; Norman, J.; Ockleton, M.; Parker, C.; Paquet, J.-F.; Roland, G.; Schwiebert, L.; Sengupta, A.; Singh, M.; Sirimanna, C.; Soltz, R.A.; Soudi, I.; Tachibana, Y.; Velkovska, J.; Vujanovic, G.; Wang, X.-N.; Wu, X.; Zhang, J.; Zhao, W.",
+        "author": "Roch, H.; Pihan, G.; Monnai, A.; Ryu, S.; Senthilkumar, N.; Staudenmaier, J.; Elfner, H.; Schenke, B.; Putschke, J.H.; Shen, C.; Bass, S.A.; Chartier, M.; Chen, Y.; Datta, R.; Dolan, R.; Du, L.; Ehlers, R.; Fries, R.J.; Gale, C.; Hangal, D.A.; Jacak, B.V.; Jacobs, P.M.; Jeon, S.; Ji, Y.; Jonas, F.; Kordell, M., II; Kumar, A.; Kunnawalkam-Elayavalli, R.; Latessa, J.; Lee, Y.-J.; Luzum, M.; Majumder, A.; Mak, S.; Mankolli, A.; Martin, C.; Mehryar, H.; Mengel, T.; Nattrass, C.; Norman, J.; Ockleton, M.; Parker, C.; Paquet, J.-F.; Roland, G.; Schwiebert, L.; Sengupta, A.; Singh, M.; Sirimanna, C.; Soltz, R.A.; Soudi, I.; Tachibana, Y.; Velkovska, J.; Vujanovic, G.; Wang, X.-N.; Wu, X.; Zhang, J.; Zhao, W.",
         "earliest_date": "2025-10-08",
         "date": "October 08, 2025",
         "earliest_year": 2025,
         "arxiv_eprint": "2510.06996",
-        "abstract": "We employ the SMASH transport model to provide event-by-event initial conditions for the energy-momentum tensor and conserved charge currents in hydrodynamic simulations of relativistic heavy-ion collisions. We study the fluctuations and dynamical evolution of three conserved charge currents (net baryon, net electric charges, and net strangeness) with a 4D lattice-QCD-based equation of state, NEOS-4D, in the hydrodynamic phase. Out-of-equilibrium corrections at the particlization are generalized to finite densities to ensure the conservation of energy, momentum, and the three types of charges. These theoretical developments are integrated within X-SCAPE as a unified framework for studying the nuclear matter properties in the Beam Energy Scan program."
+        "abstract": "We employ the SMASH transport model to provide event-by-event initial conditions for the energy-momentum tensor and conserved charge currents in hydrodynamic simulations of relativistic heavy-ion collisions. We study the fluctuations and dynamical evolution of three conserved charge currents (net baryon, net electric charges, and net strangeness) with a four-dimensional lattice-QCD-based equation\u00a0of state, NEOS-4D, in the hydrodynamic phase. Out-of-equilibrium corrections at the particlization are generalized to finite densities to ensure the conservation of energy, momentum, and the three types of charges. These theoretical developments are integrated within the X-SCAPE code as a unified framework for studying the nuclear matter properties in the Beam Energy Scan program.",
+        "doi": "10.1103/nvyy-kxhd",
+        "journal": "Phys.Rev.C",
+        "volume": "113",
+        "issue": "2",
+        "pages": "2",
+        "pub_year": "2026"
     },
     {
         "id": 2971013,
@@ -604,7 +610,8 @@
         "journal": "Phys.Rev.C",
         "volume": "111",
         "issue": "4",
-        "pub_year": "2025"
+        "pub_year": "2025",
+        "pages": "4"
     },
     {
         "id": 2818238,
@@ -696,7 +703,8 @@
         "journal": "Phys.Rev.C",
         "volume": "110",
         "issue": "5",
-        "pub_year": "2024"
+        "pub_year": "2024",
+        "pages": "5"
     },
     {
         "id": 2810715,
@@ -834,7 +842,8 @@
         "journal": "Phys.Rev.C",
         "volume": "110",
         "issue": "4",
-        "pub_year": "2024"
+        "pub_year": "2024",
+        "pages": "4"
     },
     {
         "id": 2757549,
@@ -1138,7 +1147,7 @@
             "Jeon, S.",
             "Ji, Y.",
             "Jonas, F.",
-            "Kordell, M.",
+            "Kordell, II M.",
             "Kumar, A.",
             "Kunnawalkam-Elayavalli, R.",
             "Latessa, J.",
@@ -1165,7 +1174,7 @@
             "Wang, X.-N.",
             "Zhang, J."
         ],
-        "author": "Mankolli, A.; Shen, C.; Luzum, M.; Paquet, J.-F.; Singh, M.; Velkovska, J.; Bass, S.A.; Gale, C.; da Silva, G.A.C.; Du, L.; Kasper, L.; Rocha, G.S.; Soeder, D.; Tuo, S.; Vujanovic, G.; Wu, X.; Zhao, W.; Chartier, M.; Chen, Y.; Datta, R.; Dolan, R.; Ehlers, R.; Elfner, H.; Fries, R.J.; Hangal, D.A.; Jacak, B.V.; Jacobs, P.M.; Jeon, S.; Ji, Y.; Jonas, F.; Kordell, M.; Kumar, A.; Kunnawalkam-Elayavalli, R.; Latessa, J.; Lee, Y.-J.; Majumder, A.; Mak, S.; Martin, C.; Mehryar, H.; Mengel, T.; Nattrass, C.; Norman, J.; Ockleton, M.; Parker, C.; Putschke, J.H.; Roch, H.; Roland, G.; Schenke, B.; Schwiebert, L.; Sengupta, A.; Sirimanna, C.; Soltz, R.A.; Soudi, I.; Tachibana, Y.; Wang, X.-N.; Zhang, J.",
+        "author": "Mankolli, A.; Shen, C.; Luzum, M.; Paquet, J.-F.; Singh, M.; Velkovska, J.; Bass, S.A.; Gale, C.; da Silva, G.A.C.; Du, L.; Kasper, L.; Rocha, G.S.; Soeder, D.; Tuo, S.; Vujanovic, G.; Wu, X.; Zhao, W.; Chartier, M.; Chen, Y.; Datta, R.; Dolan, R.; Ehlers, R.; Elfner, H.; Fries, R.J.; Hangal, D.A.; Jacak, B.V.; Jacobs, P.M.; Jeon, S.; Ji, Y.; Jonas, F.; Kordell, II M.; Kumar, A.; Kunnawalkam-Elayavalli, R.; Latessa, J.; Lee, Y.-J.; Majumder, A.; Mak, S.; Martin, C.; Mehryar, H.; Mengel, T.; Nattrass, C.; Norman, J.; Ockleton, M.; Parker, C.; Putschke, J.H.; Roch, H.; Roland, G.; Schenke, B.; Schwiebert, L.; Sengupta, A.; Sirimanna, C.; Soltz, R.A.; Soudi, I.; Tachibana, Y.; Wang, X.-N.; Zhang, J.",
         "earliest_date": "2026-01-23",
         "date": "January 23, 2026",
         "earliest_year": 2026,
