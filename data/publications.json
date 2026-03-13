@@ -96,7 +96,7 @@
     {
         "id": 2971013,
         "url": "https://inspirehep.net/literature/2971013",
-        "title": "Learning Informed Prior Distributions with Normalizing Flows for Bayesian Analysis",
+        "title": "Learning informed prior distributions with normalizing flows for Bayesian analysis",
         "authors": [
             "Roch, Hendrik",
             "Shen, Chun"
@@ -106,7 +106,12 @@
         "date": "September 18, 2025",
         "earliest_year": 2025,
         "arxiv_eprint": "2509.14911",
-        "abstract": "We investigate the use of normalizing flow (NF) models as flexible priors in Bayesian inference with Markov Chain Monte Carlo (MCMC) sampling. Trained on posteriors from previous analyses, these models can be used as informative priors, capturing non-trivial distributions and correlations, in subsequent inference tasks. We compare different training strategies and loss functions, finding that training based on Kullback-Leibler (KL) divergence and unsupervised learning consistently yield the most accurate reproductions of reference distributions. Applied in sequential Bayesian workflows, MCMC with the NF-based priors reproduces the results of one-shot joint inferences well, provided the target distributions are unimodal. In cases with pronounced multi-modality or dataset tension, distortions may arise, underscoring the need for caution in multi-stage Bayesian inference. A comparison between the pocoMC MCMC sampler and the standard emcee sampler further demonstrates the importance of advanced and robust algorithms for exploring the posterior space. Overall, our results establish NF-based priors as a practical and efficient tool for sequential Bayesian inference in high-dimensional parameter spaces."
+        "abstract": "We investigate the use of normalizing flow (NF) models as flexible priors in Bayesian inference via Markov chain Monte Carlo (MCMC) sampling for iterative Bayesian calibration. Trained on posteriors from previous analyses, these models can be used as informative priors that capture nontrivial distributions and correlations in subsequent inference tasks. We compare different training strategies and loss functions, finding that training based on Kullback-Leibler divergence and unsupervised learning consistently yield the most accurate reproductions of reference distributions. We apply such a sequential Bayesian workflow to a high-energy nuclear physics problem; MCMC with NF-based priors reproduces the results of one-shot joint inference well, provided the target distributions are unimodal. In cases with pronounced multi-modality or dataset tension, distortions may arise, underscoring the need for caution in multi-stage Bayesian inference. A comparison between the pocoMC MCMC sampler and the standard emcee sampler further demonstrates the importance of advanced and robust algorithms for exploring the posterior space. Overall, our results establish NF-based priors as a practical and efficient tool for sequential Bayesian inference in high-dimensional parameter spaces.",
+        "doi": "10.1103/wms4-m4cb",
+        "journal": "Phys.Rev.C",
+        "volume": "113",
+        "issue": "3",
+        "pub_year": "2026"
     },
     {
         "id": 2969992,
@@ -195,7 +200,7 @@
     {
         "id": 2946473,
         "url": "https://inspirehep.net/literature/2946473",
-        "title": "Bayesian Model Selection and Uncertainty Propagation for Beam Energy Scan Heavy-Ion Collisions",
+        "title": "Bayesian model selection and uncertainty propagation for beam energy scan heavy-ion collisions",
         "authors": [
             "Jahan, Syed Afrid",
             "Roch, Hendrik",
@@ -206,7 +211,12 @@
         "date": "July 15, 2025",
         "earliest_year": 2025,
         "arxiv_eprint": "2507.11394",
-        "abstract": "We apply the Bayesian model selection method (based on the Bayes factor) to optimize $\\sqrt{s_\\mathrm{NN}}$-dependence in the phenomenological parameters of the (3+1)-dimensional hybrid framework for describing relativistic heavy-ion collisions within the Beam Energy Scan program at the Relativistic Heavy-Ion Collider. The effects of various experimental measurements on the posterior distribution are investigated. We also make model predictions for longitudinal flow decorrelation, rapidity-dependent anisotropic flow and identified particle $v_0(p_\\mathrm{T})$ in Au+Au collisions, as well as anisotropic flow coefficients in small systems. Systematic uncertainties in the model predictions are estimated using the variance of the simulation results with a few parameter sets sampled from the posterior distributions."
+        "abstract": "We apply the Bayesian model selection method (based on the Bayes factor) to optimize <math><msqrt><msub><mi>s</mi><mrow><mi>N</mi><mi>N</mi></mrow></msub></msqrt></math>-dependence in the phenomenological parameters of the <math><mrow><mo>(</mo><mn>3</mn><mo>+</mo><mn>1</mn><mo>)</mo></mrow></math>-dimensional hybrid framework for describing relativistic heavy-ion collisions within the beam energy scan program at the Relativistic Heavy Ion Collider. The effects of various experimental measurements on the posterior distribution are investigated. We also make model predictions for longitudinal flow decorrelation, rapidity-dependent anisotropic flow, and identified particle <math><mrow><msub><mi>v</mi><mn>0</mn></msub><mrow><mo>(</mo><msub><mi>p</mi><mi mathvariant=\"normal\">T</mi></msub><mo>)</mo></mrow></mrow></math> in <math><mrow><mi>Au</mi><mo>+</mo><mi>Au</mi></mrow></math> collisions, as well as anisotropic flow coefficients in small systems. Systematic uncertainties in the model predictions are estimated using the variance of the simulation results with a few parameter sets sampled from the posterior distributions.",
+        "doi": "10.1103/y962-1lyg",
+        "journal": "Phys.Rev.C",
+        "volume": "113",
+        "issue": "2",
+        "pub_year": "2026"
     },
     {
         "id": 2940820,
@@ -369,7 +379,7 @@
     {
         "id": 2906076,
         "url": "https://inspirehep.net/literature/2906076",
-        "title": "Enhanced signal of momentum broadening in hard splittings for $\\gamma$-tagged jets in a multistage approach",
+        "title": "Effect of recoils on soft-drop-groomed observables in <math><mi>\u03b3</mi></math>-tagged jets in a multistage approach",
         "authors": [
             "Tachibana, Y.",
             "Sirimanna, C.",
@@ -429,7 +439,12 @@
         "date": "March 30, 2025",
         "earliest_year": 2025,
         "arxiv_eprint": "2503.23693",
-        "abstract": "We investigate medium-induced modifications to jet substructure observables that characterize hard splitting patterns in central Pb-Pb collisions at the top energy of the Large Hadron Collider (LHC). Using a multistage Monte Carlo simulation of in-medium jet shower evolution, we explore flavor-dependent medium effects through simulations of inclusive and $\\gamma$-tagged jets. The results show that quark jets undergo a non-monotonic modification compared to gluon jets in observables such as the Pb-Pb to $p$-$p$ ratio of the Soft Drop prong angle $r_g$, the relative prong transverse momentum $k_{T,g}$ and the groomed mass $m_g$ distributions. Due to this non-monotonic modification, $\\gamma$-tagged jets, enriched in quark jets, provide surprisingly clear signals of medium-induced structural modifications, distinct from effects dominated by selection bias. This work highlights the potential of hard substructures in $\\gamma$-tagged jets as powerful tools for probing the jet-medium interactions in high-energy heavy-ion collisions. All simulations for $\\gamma$-tagged jet analyses carried out in this paper used triggered events containing at least one hard photon, which highlights the utility of these observables for future Bayesian analysis."
+        "abstract": "We investigate medium-induced modifications to jet substructure observables that characterize hard components in central Pb-Pb collisions at <math><mrow><msqrt><msub><mi>s</mi><mrow><mi>N</mi><mi>N</mi></mrow></msub></msqrt><mo>=</mo><mn>5.02</mn></mrow></math> TeV. Using a multistage Monte Carlo simulation of in-medium jet shower evolution, we explore flavor-dependent medium effects through simulations of inclusive and <math><mi>\u03b3</mi></math>-tagged jets. The results show that quark jets undergo a nonmonotonic modification compared with gluon jets in observables such as the Pb-Pb to <math><mrow><mi>p</mi><mtext>-</mtext><mi>p</mi></mrow></math> ratio of the soft drop prong angle <math><msub><mi>r</mi><mi>g</mi></msub></math>, the relative prong transverse momentum <math><msub><mi>k</mi><mrow><mi>T</mi><mo>,</mo><mi>g</mi></mrow></msub></math>, and the groomed mass <math><msub><mi>m</mi><mi>g</mi></msub></math> distributions. Due to this nonmonotonic modification, <math><mi>\u03b3</mi></math>-tagged jets, enriched in quark jets, provide surprisingly clear signals of medium-induced structural modifications, distinct from effects dominated by selection bias. Further systematic studies demonstrate that these effects are dominated by recoil medium response. This work highlights the potential of hard substructures in <math><mi>\u03b3</mi></math>-tagged jets as powerful tools for probing the jet-medium interactions in high-energy heavy-ion collisions, in particular by enabling detailed investigations of jet-medium parton scatterings via their associated medium response. All simulations for <math><mi>\u03b3</mi></math>-tagged jet analyses carried out in this paper used triggered events containing at least one hard photon, which highlights the utility of these observables for future Bayesian analysis.",
+        "doi": "10.1103/7qxy-fz41",
+        "journal": "Phys.Rev.C",
+        "volume": "113",
+        "issue": "3",
+        "pub_year": "2026"
     },
     {
         "id": 2899353,
@@ -682,7 +697,8 @@
         "journal": "Phys.Rev.C",
         "volume": "111",
         "issue": "5",
-        "pub_year": "2025"
+        "pub_year": "2025",
+        "pages": "5"
     },
     {
         "id": 2813756,
