@@ -230,3 +230,10 @@ a.text-green-600:hover {
   text-decoration: underline;
   color: #047857; /* Darker green on hover */
 }
+
+.repo-links div {
+    padding: 10px;
+    border-left: 3px solid #047857;
+    background-color: #f0fdf4;
+    border-radius: 8px;
+}

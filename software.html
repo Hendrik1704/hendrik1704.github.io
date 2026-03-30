@@ -61,32 +61,111 @@
     <!-- insert navigation bar -->
     <script id="insert_menu" src="scripts/nav.js"></script>
 
+    <p class="text-green-800">
+      I develop open-source software for high-energy nuclear physics, focusing on
+      simulation frameworks, data analysis, and Bayesian inference tools.
+      My work emphasizes modular design, performance, and reproducibility.
+    </p>
+
+    
+    <h2 class="text-green-700">Featured Software</h2>
+    
+    <div class="repo-links">
+      
+      <div style="margin-bottom: 20px;">
+        <a href="https://github.com/smash-transport/sparkx" target="_blank">SPARKX</a><br>
+        <span class="text-green-800">
+          A modular framework for analyzing heavy-ion collision data, including tools
+          for event processing, observable computation, and statistical analysis.
+        </span><br>
+        <span style="font-size: 14px; color: #065f46;">
+          Python • Data Analysis • Heavy-Ion Physics
+        </span>
+      </div>
+      
+      <div style="margin-bottom: 20px;">
+        <a href="https://github.com/Hendrik1704/NFDistributionTraining" target="_blank">Normalizing Flow Toolkit</a><br>
+        <span class="text-green-800">
+          JAX-based implementation of normalizing flows for Bayesian inference and
+          high-dimensional probability modeling in physics applications.
+        </span><br>
+        <span style="font-size: 14px; color: #065f46;">
+          Python • JAX • Bayesian Inference • Probability Modeling
+        </span>
+      </div>
+
+      <!-- GPBayesTools-HIC -->
+      <div style="margin-bottom: 20px;">
+        <a href="https://github.com/Hendrik1704/GPBayesTools-HIC" target="_blank">GPBayesTools-HIC</a><br>
+        <span class="text-green-800">
+          Gaussian-process-based Bayesian inference toolkit for heavy-ion collisions,
+          integrating emulator construction with advanced Monte Carlo sampling methods
+          for efficient parameter estimation.
+        </span><br>
+        <span style="font-size: 14px; color: #065f46;">
+          Python • Gaussian Processes • Bayesian Inference • MCMC
+        </span>
+      </div>
+
+      <!-- CRONOS -->
+      <div style="margin-bottom: 20px;">
+        <a href="https://github.com/Hendrik1704/CRONOS" target="_blank">CRONOS</a><br>
+        <span class="text-green-800">
+          A workflow orchestration framework for large-scale heavy-ion collision simulations,
+          managing pipelines from initial conditions to final observables across distributed systems.
+        </span><br>
+        <span style="font-size: 14px; color: #065f46;">
+          Python • HPC • Workflow Management • Simulation Pipelines
+        </span>
+      </div>
+      
+    </div>
+
     <div class="github-link">
-      <a href="https://github.com/Hendrik1704" target="_blank">Visit my GitHub Profile</a>
+      <a href="https://github.com/Hendrik1704" target="_blank">For more repositories visit my GitHub Profile</a>
     </div>
 
     <!-- main content -->
     <div class="repo-links"></div> <!-- Placeholder for dynamically loaded repository links -->
+  
   </div>
 
   <!-- Fetching GitHub Repositories dynamically -->
   <script>
     fetch('https://api.github.com/users/Hendrik1704/repos')
-      .then(response => response.json())
-      .then(data => {
-        const repoLinksDiv = document.querySelector('.repo-links');
-        let repoList = '<h2 class="text-green-700">Public GitHub Repositories</h2><ul>';
-        
-        data.forEach(repo => {
-          repoList += `<li><a href="${repo.html_url}" target="_blank">${repo.name}</a></li>`;
-        });
-        
-        repoList += '</ul>';
-        repoLinksDiv.innerHTML = repoList;
-      })
-      .catch(error => {
-        console.error('Error fetching GitHub repositories:', error);
+    .then(response => response.json())
+    .then(data => {
+      const repoLinksDiv = document.querySelectorAll('.repo-links')[1];
+
+      // Repos already featured
+      const featuredRepos = [
+        "sparkx",
+        "NFDistributionTraining",
+        "GPBayesTools-HIC",
+        "CRONOS"
+      ];
+
+      // Filter: remove forks AND featured repos
+      const repos = data
+        .filter(repo => !repo.fork && !featuredRepos.includes(repo.name))
+        .sort((a, b) => b.stargazers_count - a.stargazers_count);
+
+      let repoList = '<h2 class="text-green-700">Other Projects</h2><ul>';
+
+      repos.forEach(repo => {
+        repoList += `
+          <li>
+            <a href="${repo.html_url}" target="_blank">${repo.name}</a>
+            <span class="text-green-800"> – ${repo.description || 'No description available.'}</span>
+          </li>`;
       });
+
+      repoList += '</ul>';
+      repoLinksDiv.innerHTML = repoList;
+    })
+    .catch(error => {
+      console.error('Error fetching GitHub repositories:', error);
+    });
   </script>
 </body>
 </html>
