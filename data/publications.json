@@ -111,7 +111,8 @@
         "journal": "Phys.Rev.C",
         "volume": "113",
         "issue": "3",
-        "pub_year": "2026"
+        "pub_year": "2026",
+        "pages": "3"
     },
     {
         "id": 2969992,
@@ -149,7 +150,11 @@
         "date": "August 29, 2025",
         "earliest_year": 2025,
         "arxiv_eprint": "2508.21562",
-        "abstract": "We perform a global Bayesian analysis of diffractive $\\mathrm{J}/\u03c8$ production in $\u03b3+p$ and $\u03b3+\\mathrm{Pb}$ collisions within a Color Glass Condensate based framework. Using data from HERA and the LHC, we find that a simultaneous description of $\u03b3+p$ and $\u03b3+\\mathrm{Pb}$ observables is challenging. Introducing a global $K$-factor to account for theoretical uncertainties improves the agreement with data and enhances the framework's predictive power. We present predictions for integrated $\\mathrm{J}/\u03c8$ cross sections at different photon-nucleus energies and study their $A$-dependence relative to a no-saturation baseline, quantifying nuclear suppression and providing insights into the onset of saturation effects."
+        "abstract": "We perform a global Bayesian analysis of diffractive J|\u03c8 production in \u03b3+p and \u03b3+Pb collisions within a Color Glass Condensate based framework. Using data from HERA and the LHC, we find that a simultaneous description of \u03b3 + p and \u03b3 + Pb observables is challenging. Introducing a global K-factor to account for theoretical uncertainties improves the agreement with data and enhances the framework's predictive power. We present predictions for integrated J|\u03c8 cross sections at different photon-nucleus energies and study their A-dependence relative to a no-saturation baseline, quantifying nuclear suppression and providing insights into the onset of saturation effects.",
+        "doi": "10.1051/epjconf/202636413007",
+        "journal": "EPJ Web Conf.",
+        "volume": "364",
+        "pub_year": "2026"
     },
     {
         "id": 2958238,
@@ -374,7 +379,12 @@
         "date": "April 03, 2025",
         "earliest_year": 2025,
         "arxiv_eprint": "2504.02726",
-        "abstract": "We perform a global analysis of deep-inelastic $e+p$ scattering data from HERA and transverse energy distributions in $p+p$ and $p+\\mathrm{Pb}$ collisions, alongside charged hadron multiplicities in $\\mathrm{Pb}+\\mathrm{Pb}$ collisions at $\\sqrt{s_{\\mathrm{NN}}} = 5.02\\;\\mathrm{TeV}$ from ALICE. Using a saturation-based initial state model grounded in high-energy QCD, we determine the early-time non-equilibrium shear viscosity to entropy density ratio $\u03b7/s$ of the quark-gluon plasma. Our results provide new insights into the early-time transport properties of nuclear matter under extreme conditions."
+        "abstract": "We perform a global analysis of deep-inelastic e + p scattering data from HERA and transverse energy distributions in p + p and p + Pb collisions, alongside charged hadron multiplicities in Pb+Pb collisions at $ \\sqrt{s_{\\textrm{NN}}}=5.02 $ TeV from ALICE. Using a saturation-based initial state model grounded in high-energy QCD, we determine the early-time non-equilibrium shear viscosity to entropy density ratio \u03b7/s of the quark-gluon plasma. Our results provide new insights into the early-time transport properties of nuclear matter under extreme conditions.",
+        "doi": "10.1007/JHEP04(2026)185",
+        "journal": "JHEP",
+        "volume": "04",
+        "pages": "185",
+        "pub_year": "2026"
     },
     {
         "id": 2906076,
@@ -1196,5 +1206,23 @@
         "earliest_year": 2026,
         "arxiv_eprint": "2601.17234",
         "abstract": "A comprehensive Bayesian analysis of the 3D dynamics of high-energy nuclear collisions is presented. We perform a systematic model-to-data comparison using simulations of large and small collision systems, and a broad range of measurements from the PHENIX, STAR, PHOBOS, and BRAHMS collaborations spanning nearly two decades of RHIC operations. In particular, we perform fully 3D multi-stage simulations including rapidity-dependent energy deposition with global energy conservation using the 3D Glauber model, along with relativistic viscous hydrodynamics with MUSIC. We calibrate the model on rapidity- and $p_T$-differential observables and analyze the respective constraints on initial state and transport properties they provide. We emphasize the additional constraints provided by rapidity-dependent measurements, the differences in large and small system calibrations, and the tension exhibited by particular observables. We use our calibrated model to make predictions of observables in p-Au and $^3$He-Au collisions. Furthermore, we facilitate direct comparison of experimental measurements by highlighting the dependence of flow measurements on the rapidity of the regions of interest and reference, as well as the importance of the centrality selection. In particular, we examine the apparent differences between the STAR and PHENIX $v_2$ and $v_3$ measurements in small systems."
+    },
+    {
+        "id": 3150836,
+        "url": "https://inspirehep.net/literature/3150836",
+        "title": "Nuclear structure and saturation effects from diffractive vector meson production",
+        "authors": [
+            "M\u00e4ntysaari, Heikki",
+            "Roch, Hendrik",
+            "Schenke, Bj\u00f6rn",
+            "Shen, Chun",
+            "Zhao, Wenbin"
+        ],
+        "author": "M\u00e4ntysaari, Heikki; Roch, Hendrik; Schenke, Bj\u00f6rn; Shen, Chun; Zhao, Wenbin",
+        "earliest_date": "2026-05-01",
+        "date": "May 01, 2026",
+        "earliest_year": 2026,
+        "arxiv_eprint": "2605.00454",
+        "abstract": "We study exclusive vector meson production in ultra-peripheral collisions (UPCs) of a wide range of nuclei, and assess the potential of measurements to constrain the small-$x$ structure of oxygen and neon nuclei. We employ an impact-parameter-dependent color glass condensate framework incorporating JIMWLK evolution, with parameters constrained by a recent global Bayesian analysis of $\u03b3+p$ and $\u03b3+\\mathrm{Pb}$ data. We present predictions for coherent and incoherent $\\mathrm{J}/\u03c8$ production in $\\mathrm{O}+\\mathrm{O}$ and $\\mathrm{Ne}+\\mathrm{Ne}$ UPCs at LHC energies, and quantify theoretical uncertainties using posterior samples from the calibration. We employ several nuclear structure models and find that $t$-differential observables are sensitive to the chosen model. We further study the mass-number dependence of saturation effects through nuclear suppression factors for coherent and incoherent vector meson production. Saturation-induced suppression increases systematically with both nuclear mass number and energy. Our results provide a unified framework for the systematic study of the onset of gluon saturation and nuclear structure at high energy, accessible in future UPC measurements at the LHC and at the Electron-Ion Collider."
     }
 ]
