@@ -218,6 +218,19 @@ on hover */
   color: #047857; /* A dark green color */
 }
 
+.text-green-600 {
+  color: #059669;
+}
+
+.text-green-800 {
+  color: #065f46;
+}
+
+/* Active navigation button (current page) */
+.dropbtn.nav-active {
+  background-color: #065f46;
+}
+
 .text-green-800 {
   color: #065f46; /* A slightly darker green */
 }

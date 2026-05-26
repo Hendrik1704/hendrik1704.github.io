@@ -9,6 +9,7 @@
 <head>
     <title>Software</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Software developed by Hendrik Roch">
     <meta name="keywords" content="software, code, development">
     <meta name="author" content="Hendrik Roch">
@@ -132,7 +133,7 @@
 
   <!-- Fetching GitHub Repositories dynamically -->
   <script>
-    fetch('https://api.github.com/users/Hendrik1704/repos')
+    fetch('https://api.github.com/users/Hendrik1704/repos?per_page=100')
     .then(response => response.json())
     .then(data => {
       const repoLinksDiv = document.querySelectorAll('.repo-links')[1];

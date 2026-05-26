@@ -40,7 +40,7 @@ let buildString = (arr) => {
             if (arr[j].earliest_year === uniqueYears[i]) {
 
                 // a div to apply css formatting to the article block
-                str += "<div = class=\"articleBlock\">";
+                str += "<div class=\"articleBlock\">";
 
                 // if the author field is not empty, print it
                 if (arr[j].author)
@@ -127,9 +127,9 @@ let collapseListeners = () => {
 };
 
 // This function runs when the publications page is loaded.
-let makeList = ()=> {
+let makeList = async () => {
     // parse the data file
-    let arr = parseJSON(pubDataFile);
+    let arr = await parseJSON(pubDataFile);
     
     // prints to console for debugging
     printArray(arr);

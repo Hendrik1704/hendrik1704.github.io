@@ -10,17 +10,9 @@ function printArray(array) {
 }
   
 // function to parse a json file and return a javascript array object
-function parseJSON(file) {
-  let array = [];
-  $.ajax({
-    url: file,
-    dataType: 'json',
-    async: false,
-    success: function(data) {
-      array = data;
-    }
-  });
-  return array;
+async function parseJSON(file) {
+  const response = await fetch(file);
+  return await response.json();
 }
 
 // function to call the table creation function at page load.
@@ -32,8 +24,8 @@ function parseJSON(file) {
 // this function argument accepts a function as a parameter that
 // can modify the array so the url and text description are in the
 // same field as a complete anchor tag.
-function createTable(dataFile, tableID, linkFunc) {
-  let arr = parseJSON(dataFile);
+async function createTable(dataFile, tableID, linkFunc) {
+  let arr = await parseJSON(dataFile);
 
   // processes the array if fields need to be combined
   arr = linkFunc(arr);

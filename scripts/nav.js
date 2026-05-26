@@ -8,4 +8,12 @@ fetch('nav.html')
     let newelem = document.createElement("div");
     newelem.innerHTML = text;
     oldelem.parentNode.replaceChild(newelem,oldelem);
+
+    // Highlight the nav button for the current page
+    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+    newelem.querySelectorAll('.dropbtn a').forEach(link => {
+        if (link.getAttribute('href') === currentPage) {
+            link.closest('.dropbtn').classList.add('nav-active');
+        }
+    });
 })
