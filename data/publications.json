@@ -1141,7 +1141,7 @@
     {
         "id": 3111362,
         "url": "https://inspirehep.net/literature/3111362",
-        "title": "Longitudinal Dynamics of Large and Small Systems from a 3D Bayesian Calibration of RHIC Top-energy Collision Data",
+        "title": "Longitudinal dynamics of large and small systems from a 3D Bayesian calibration of RHIC top-energy collision data",
         "authors": [
             "Mankolli, A.",
             "Shen, C.",
@@ -1168,12 +1168,12 @@
             "Elfner, H.",
             "Fries, R.J.",
             "Hangal, D.A.",
-            "Jacak, B.V.",
+            "Jacak, B., V.",
             "Jacobs, P.M.",
             "Jeon, S.",
             "Ji, Y.",
             "Jonas, F.",
-            "Kordell, II M.",
+            "Kordell, M., II",
             "Kumar, A.",
             "Kunnawalkam-Elayavalli, R.",
             "Latessa, J.",
@@ -1200,12 +1200,17 @@
             "Wang, X.-N.",
             "Zhang, J."
         ],
-        "author": "Mankolli, A.; Shen, C.; Luzum, M.; Paquet, J.-F.; Singh, M.; Velkovska, J.; Bass, S.A.; Gale, C.; da Silva, G.A.C.; Du, L.; Kasper, L.; Rocha, G.S.; Soeder, D.; Tuo, S.; Vujanovic, G.; Wu, X.; Zhao, W.; Chartier, M.; Chen, Y.; Datta, R.; Dolan, R.; Ehlers, R.; Elfner, H.; Fries, R.J.; Hangal, D.A.; Jacak, B.V.; Jacobs, P.M.; Jeon, S.; Ji, Y.; Jonas, F.; Kordell, II M.; Kumar, A.; Kunnawalkam-Elayavalli, R.; Latessa, J.; Lee, Y.-J.; Majumder, A.; Mak, S.; Martin, C.; Mehryar, H.; Mengel, T.; Nattrass, C.; Norman, J.; Ockleton, M.; Parker, C.; Putschke, J.H.; Roch, H.; Roland, G.; Schenke, B.; Schwiebert, L.; Sengupta, A.; Sirimanna, C.; Soltz, R.A.; Soudi, I.; Tachibana, Y.; Wang, X.-N.; Zhang, J.",
+        "author": "Mankolli, A.; Shen, C.; Luzum, M.; Paquet, J.-F.; Singh, M.; Velkovska, J.; Bass, S.A.; Gale, C.; da Silva, G.A.C.; Du, L.; Kasper, L.; Rocha, G.S.; Soeder, D.; Tuo, S.; Vujanovic, G.; Wu, X.; Zhao, W.; Chartier, M.; Chen, Y.; Datta, R.; Dolan, R.; Ehlers, R.; Elfner, H.; Fries, R.J.; Hangal, D.A.; Jacak, B., V.; Jacobs, P.M.; Jeon, S.; Ji, Y.; Jonas, F.; Kordell, M., II; Kumar, A.; Kunnawalkam-Elayavalli, R.; Latessa, J.; Lee, Y.-J.; Majumder, A.; Mak, S.; Martin, C.; Mehryar, H.; Mengel, T.; Nattrass, C.; Norman, J.; Ockleton, M.; Parker, C.; Putschke, J.H.; Roch, H.; Roland, G.; Schenke, B.; Schwiebert, L.; Sengupta, A.; Sirimanna, C.; Soltz, R.A.; Soudi, I.; Tachibana, Y.; Wang, X.-N.; Zhang, J.",
         "earliest_date": "2026-01-23",
         "date": "January 23, 2026",
         "earliest_year": 2026,
         "arxiv_eprint": "2601.17234",
-        "abstract": "A comprehensive Bayesian analysis of the 3D dynamics of high-energy nuclear collisions is presented. We perform a systematic model-to-data comparison using simulations of large and small collision systems, and a broad range of measurements from the PHENIX, STAR, PHOBOS, and BRAHMS collaborations spanning nearly two decades of RHIC operations. In particular, we perform fully 3D multi-stage simulations including rapidity-dependent energy deposition with global energy conservation using the 3D Glauber model, along with relativistic viscous hydrodynamics with MUSIC. We calibrate the model on rapidity- and $p_T$-differential observables and analyze the respective constraints on initial state and transport properties they provide. We emphasize the additional constraints provided by rapidity-dependent measurements, the differences in large and small system calibrations, and the tension exhibited by particular observables. We use our calibrated model to make predictions of observables in p-Au and $^3$He-Au collisions. Furthermore, we facilitate direct comparison of experimental measurements by highlighting the dependence of flow measurements on the rapidity of the regions of interest and reference, as well as the importance of the centrality selection. In particular, we examine the apparent differences between the STAR and PHENIX $v_2$ and $v_3$ measurements in small systems."
+        "abstract": "A comprehensive Bayesian analysis of the three-dimensional (3D) dynamics of high-energy nuclear collisions is presented. We perform a systematic model-to-data comparison using simulations of large and small collision systems, and a broad range of measurements from the PHENIX, STAR, PHOBOS, and BRAHMS collaborations spanning nearly two decades of operations at the BNL Relativistic Heavy Ion Collider (RHIC). In particular, we perform fully 3D multistage simulations including rapidity-dependent energy deposition with global energy conservation using the 3D Glauber model, along with relativistic viscous hydrodynamics with music. We calibrate the model on rapidity- and <math><msub><mi>p</mi><mi>T</mi></msub></math>-differential observables and analyze the respective constraints on initial state and transport properties they provide. We emphasize the additional constraints provided by rapidity-dependent measurements, the differences in large and small system calibrations, and the tension exhibited by particular observables. We use our calibrated model to make predictions of observables in <math><mi>p</mi></math>-Au and <math><mmultiscripts><mi>He</mi><mprescripts/><none/><mn>3</mn></mmultiscripts></math>-Au collisions. Furthermore, we facilitate direct comparison of experimental measurements by highlighting the dependence of flow measurements on the rapidity of the regions of interest and reference, as well as the importance of the centrality selection. In particular, we examine the apparent differences between the STAR and PHENIX <math><msub><mi>v</mi><mn>2</mn></msub></math> and <math><msub><mi>v</mi><mn>3</mn></msub></math> measurements in small systems.",
+        "doi": "10.1103/7kjw-vfgp",
+        "journal": "Phys.Rev.C",
+        "volume": "114",
+        "issue": "1",
+        "pub_year": "2026"
     },
     {
         "id": 3150836,
@@ -1224,5 +1229,39 @@
         "earliest_year": 2026,
         "arxiv_eprint": "2605.00454",
         "abstract": "We study exclusive vector meson production in ultra-peripheral collisions (UPCs) of a wide range of nuclei, and assess the potential of measurements to constrain the small-$x$ structure of oxygen and neon nuclei. We employ an impact-parameter-dependent color glass condensate framework incorporating JIMWLK evolution, with parameters constrained by a recent global Bayesian analysis of $\u03b3+p$ and $\u03b3+\\mathrm{Pb}$ data. We present predictions for coherent and incoherent $\\mathrm{J}/\u03c8$ production in $\\mathrm{O}+\\mathrm{O}$ and $\\mathrm{Ne}+\\mathrm{Ne}$ UPCs at LHC energies, and quantify theoretical uncertainties using posterior samples from the calibration. We employ several nuclear structure models and find that $t$-differential observables are sensitive to the chosen model. We further study the mass-number dependence of saturation effects through nuclear suppression factors for coherent and incoherent vector meson production. Saturation-induced suppression increases systematically with both nuclear mass number and energy. Our results provide a unified framework for the systematic study of the onset of gluon saturation and nuclear structure at high energy, accessible in future UPC measurements at the LHC and at the Electron-Ion Collider."
+    },
+    {
+        "id": 3170859,
+        "url": "https://inspirehep.net/literature/3170859",
+        "title": "Event-by-event fluctuations of elliptic flow in ultrarelativistic O+O collisions",
+        "authors": [
+            "Krupczak, Renata",
+            "Borghini, Nicolas",
+            "Roch, Hendrik"
+        ],
+        "author": "Krupczak, Renata; Borghini, Nicolas; Roch, Hendrik",
+        "earliest_date": "2026-06-21",
+        "date": "June 21, 2026",
+        "earliest_year": 2026,
+        "arxiv_eprint": "2606.22558",
+        "abstract": "We study O+O collisions at $\\sqrt{s_\\mathrm{NN}} = 5.36$ TeV within a fully three-dimensional $\\text{McDipper}$+$\\text{MUSIC}$ model, which allows us to describe the experimentally measured dependence of charged hadron multiplicity on centrality and pseudorapidity. We show that the initial elliptical eccentricity is mainly driven by the fluctuations of the energy deposition and thereby varies considerably event-by-event within a fixed centrality class. This also holds for elliptic flow $v_2$, whose origin in O+O thus differs from that in collisions of heavy nuclei. Using a decomposition of initial states in an average event and uncorrelated modes, we find that despite the large size of fluctuations we can reproduce the joint probability distribution of eccentricity and elliptic flow with a reasonable accuracy with only a small set of fluctuation modes."
+    },
+    {
+        "id": 3170332,
+        "url": "https://inspirehep.net/literature/3170332",
+        "title": "Revisiting the role of saturation in diffractive vector meson production",
+        "authors": [
+            "M\u00e4ntysaari, Heikki",
+            "Roch, Hendrik",
+            "Schenke, Bj\u00f6rn",
+            "Shen, Chun",
+            "Zhao, Wenbin"
+        ],
+        "author": "M\u00e4ntysaari, Heikki; Roch, Hendrik; Schenke, Bj\u00f6rn; Shen, Chun; Zhao, Wenbin",
+        "earliest_date": "2026-06-18",
+        "date": "June 18, 2026",
+        "earliest_year": 2026,
+        "arxiv_eprint": "2606.20362",
+        "abstract": "We perform a global Bayesian analysis of coherent and incoherent diffractive $\\mathrm{J}/\u03c8$ photoproduction in $\u03b3+p$ and $\u03b3+\\mathrm{Pb}$ collisions using a Color Glass Condensate (CGC)-based framework and ultraperipheral collision data from the Large Hadron Collider (LHC), corrected for the expected effect of electromagnetic dissociation (EMD). Using Gaussian-process emulators of the underlying CGC calculations, we infer model parameters from a combined set of HERA and LHC measurements. We find that the $\u03b3+\\mathrm{Pb}$ data with EMD correction substantially reduce the previously observed tension between proton and nuclear datasets, enabling a consistent simultaneous description of diffractive $\\mathrm{J}/\u03c8$ production in $\u03b3+p$ and $\u03b3+\\mathrm{Pb}$ collisions within the CGC framework."
     }
 ]
