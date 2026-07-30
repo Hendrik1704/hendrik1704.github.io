@@ -1,0 +1,158 @@
+<!--
+  Author: Hendrik Roch
+  Copyright: 2025
+  This is the main page for the projects section of my website.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Projects</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projects by Hendrik Roch">
+    <meta name="keywords" content="projects">
+    <meta name="author" content="Hendrik Roch">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <div id="containerFlexible">
+    <!-- header -->
+    <div class="header">
+        <h1 class="text-green-700">Projects</h1>
+    </div>
+
+    <!-- insert navigation bar -->
+    <script id="insert_menu" src="scripts/nav.js"></script>
+
+    <!-- ================= GSQUAD ================= -->
+    <div class="project-card">
+        <div class="project-header">
+
+            <div class="project-logo">
+                <img src="images/GSQUAD_logo.png" alt="GSQUAD logo">
+            </div>
+
+            <div class="project-title">
+                <h2>GSQUAD</h2>
+
+                <p class="project-subtitle">
+                    <strong>G</strong>luon <strong>S</strong>aturation and
+                    <strong>Q</strong>GP <strong>U</strong>nified
+                    <strong>A</strong>nalysis of
+                    <strong>D</strong>ata
+                </p>
+
+                <span class="project-badge">
+                    Marie Skłodowska-Curie Actions Postdoctoral Fellowship
+                </span>
+
+                <span class="project-badge project-badge-light">
+                    September 2026 – August 2028
+                </span>
+
+                <span class="project-badge project-badge-light">
+                    Host Organization: University of Jyväskylä, Finland
+                </span>
+
+                <p>
+                    A project connecting the structure of nucleons with the
+                    properties of the quark–gluon plasma through global Bayesian
+                    inference.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <h3 class="text-green-700">Project Overview</h3>
+        <p>
+            GSQUAD unifies the study of cold and hot QCD matter by integrating
+            deep inelastic scattering, ultra-peripheral collision, and heavy-ion
+            collision data into a single Bayesian framework.
+        </p>
+        <p>
+            Leveraging the Color Glass Condensate effective theory together with
+            JIMWLK evolution, the project will simultaneously constrain nucleon
+            structure, small-x gluon dynamics, and transport properties of the
+            quark–gluon plasma.
+        </p>
+        <p>
+            Novel Bayesian reweighting techniques will consistently propagate
+            uncertainties across observables, enabling a direct connection between
+            nuclear structure and QGP properties.
+        </p>
+        <p>
+            GSQUAD will further develop an open-source computational framework for
+            reproducible simulations and predictions relevant for current LHC
+            measurements and the future Electron-Ion Collider.
+        </p>
+
+        <hr>
+        <h3 class="text-green-700">Scientific Vision</h3>
+        <div class="objective-grid">
+            <div class="objective-box">
+                <h4>Cold QCD</h4>
+                Deep inelastic scattering and ultra-peripheral collisions
+                constrain the small-x gluon structure of nucleons and nuclei.
+            </div>
+            <div class="objective-box">
+                <h4>Hot QCD</h4>
+                Heavy-ion collisions determine transport properties of the
+                quark–gluon plasma.
+            </div>
+            <div class="objective-box">
+                <h4>Bayesian Inference</h4>
+                Global analyses consistently propagate uncertainties between all
+                experimental observables.
+            </div>
+            <div class="objective-box">
+                <h4>Open Science</h4>
+                Development of open-source software for reproducible simulations
+                and future EIC predictions.
+            </div>
+        </div>
+        <hr>
+        <h3 class="text-green-700">Project Overview Figure</h3>
+        <div class="overview-image">
+            <img src="images/GSQUAD_Overview_Figure.png"
+                alt="Overview of the GSQUAD project">
+            <p class="figure-caption">
+                Overview of the GSQUAD framework connecting cold and hot QCD
+                observables through a unified Bayesian analysis.
+            </p>
+        </div>
+        <hr>
+        <div class="funding-section">
+            <img src="images/EU_logo_funding.png"
+                alt="Funded by the European Union"
+                class="eu-logo">
+            <div class="funding-text">
+                <h3 class="text-green-700">Funding</h3>
+                <p>
+                    <strong>GSQUAD</strong> is funded by the European Union through a
+                    Marie Skłodowska-Curie Actions (MSCA) Postdoctoral Fellowship.
+                </p>
+                <p class="funding-disclaimer">
+                    Funded by the European Union. Views and opinions expressed are
+                    however those of the author(s) only and do not necessarily reflect
+                    those of the European Union or the European Research Executive
+                    Agency (REA). Neither the European Union nor the granting authority
+                    can be held responsible for them.
+                </p>
+            </div>
+        </div>
+    </div>
+
+  
+
+  <!-- Back to top button -->
+  <button id="backToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">&#8679; Top</button>
+  <script>
+    const btn = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+      btn.style.display = window.scrollY > 300 ? 'block' : 'none';
+    });
+  </script>
+</body>
+</html>
