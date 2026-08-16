@@ -1267,6 +1267,11 @@
         "date": "June 18, 2026",
         "earliest_year": 2026,
         "arxiv_eprint": "2606.20362",
-        "abstract": "We perform a global Bayesian analysis of coherent and incoherent diffractive $\\mathrm{J}/\u03c8$ photoproduction in $\u03b3+p$ and $\u03b3+\\mathrm{Pb}$ collisions using a Color Glass Condensate (CGC)-based framework and ultraperipheral collision data from the Large Hadron Collider (LHC), corrected for the expected effect of electromagnetic dissociation (EMD). Using Gaussian-process emulators of the underlying CGC calculations, we infer model parameters from a combined set of HERA and LHC measurements. We find that the $\u03b3+\\mathrm{Pb}$ data with EMD correction substantially reduce the previously observed tension between proton and nuclear datasets, enabling a consistent simultaneous description of diffractive $\\mathrm{J}/\u03c8$ production in $\u03b3+p$ and $\u03b3+\\mathrm{Pb}$ collisions within the CGC framework."
+        "abstract": "We perform a global Bayesian analysis of coherent and incoherent diffractive <math display=\"inline\"><mi mathvariant=\"normal\">J</mi><mo>/</mo><mi>\u03c8</mi></math> photoproduction in <math display=\"inline\"><mi>\u03b3</mi><mo>+</mo><mi>p</mi></math> and <math display=\"inline\"><mi>\u03b3</mi><mo>+</mo><mi>Pb</mi></math> collisions using a color glass condensate (CGC)-based framework and ultraperipheral collision data from the Large Hadron Collider (LHC), corrected for the expected effect of electromagnetic dissociation (EMD). Using Gaussian-process emulators of the underlying CGC calculations, we infer model parameters from a combined set of HERA and LHC measurements. We find that the <math display=\"inline\"><mi>\u03b3</mi><mo>+</mo><mi>Pb</mi></math> data with EMD correction substantially reduce the previously observed tension between proton and nuclear datasets, enabling a consistent simultaneous description of diffractive <math display=\"inline\"><mi mathvariant=\"normal\">J</mi><mo>/</mo><mi>\u03c8</mi></math> production in <math display=\"inline\"><mi>\u03b3</mi><mo>+</mo><mi>p</mi></math> and <math display=\"inline\"><mi>\u03b3</mi><mo>+</mo><mi>Pb</mi></math> collisions within the CGC framework.",
+        "doi": "10.1103/t8t7-5djl",
+        "journal": "Phys.Rev.D",
+        "volume": "114",
+        "issue": "3",
+        "pub_year": "2026"
     }
 ]
