@@ -27,81 +27,96 @@ let getUnique = (arr, key) => {
     return unique.sort().reverse();
 };
 
+// Sort items within each year from newest to oldest so the latest
+// publication appears at the top of each year section.
+let sortByDateDesc = (a, b) => {
+    const dateA = new Date(a.earliest_date || a.date || `${a.pub_year || '0000'}-12-31`);
+    const dateB = new Date(b.earliest_date || b.date || `${b.pub_year || '0000'}-12-31`);
+    return dateB - dateA;
+};
+
 // This function builds the html string for the publications list.
 let buildString = (arr) => {
     let str = "";
     let uniqueYears = getUnique(arr, "earliest_year");
+    let totalPublications = arr.length;
+    let nextNumber = totalPublications;
 
     for (let i = 0; i < uniqueYears.length; i++) {
 
         // prints the relevant as a header
         str += "<h3 class=\"yearHeader\">" + uniqueYears[i] + "</h3>";
-        for (let j = 0; j < arr.length; j++) {
-            if (arr[j].earliest_year === uniqueYears[i]) {
+        let yearItems = arr.filter(item => item.earliest_year === uniqueYears[i]).sort(sortByDateDesc);
 
-                // a div to apply css formatting to the article block
-                str += "<div class=\"articleBlock\">";
+        for (let j = 0; j < yearItems.length; j++) {
+            const itemNumber = nextNumber;
+            nextNumber -= 1;
 
-                // if the author field is not empty, print it
-                if (arr[j].author)
-                    str += "<p>" + arr[j].author;
-                    if (arr[j].first_author_affiliation)
-                        str += " (" + arr[j].first_author_affiliation + ")";
-                    if (arr[j].et_al)
-                        str += " et al.";
-                    if (arr[j].date)
-                        str += " (" + arr[j].date + ")";
-                    str += "</p>";
+            // a div to apply css formatting to the article block
+            str += "<div class=\"articleBlock\">";
+            str += "<span class=\"pub-number\">" + itemNumber + "</span>";
+            str += "<div class=\"articleContent\">";
 
-                // if the title also includes an url, print it as a link
-                if (arr[j].title && arr[j].url)
-                    str += "<p><a href=\"" + arr[j].url + "\">" + arr[j].title + "</a></p>";
-                else if (arr[j].title)
-                    str += "<p>" + arr[j].title + "</p>";
-                
-                // if the journal fields are not empty, print them
-                // along with any volume number, issue number, page numbers, year
-                if (arr[j].journal) {
-                    if (arr[j].journal)
-                        str += "<p>" + arr[j].journal;
-                    if (arr[j].volume)
-                        str += ", vol. " + arr[j].volume;
-                    if (arr[j].number)
-                        str += ", no. " + arr[j].number;
-                    if (arr[j].pages)
-                        str += ", pp. " + arr[j].pages;
-                    if (arr[j].pub_year)
-                        str += " (" + arr[j].pub_year + ")";
-                    str += "</p>";
-                }
+            // title first, bolded, then author list
+            if (yearItems[j].title && yearItems[j].url)
+                str += "<p><strong><a href=\"" + yearItems[j].url + "\">" + yearItems[j].title + "</a></strong></p>";
+            else if (yearItems[j].title)
+                str += "<p><strong>" + yearItems[j].title + "</strong></p>";
 
-                // if the url, doi, or arxiv_eprint fields are not empty, print them as links
-                // in a collapsible div
-                if (arr[j].url || arr[j].doi) {
-                    str += "<button type=\"button\" class=\"collapsible\">Links</button>";
-                    str += "<div class=\"content\">";
-                    if (arr[j].doi)
-                        str += "<p><a href=\"https://doi.org/" + arr[j].doi + "\">" +
-                         arr[j].doi + "</a></p>";
-                    if (arr[j].url)
-                        str += "<p><a href=\"" + arr[j].url + "\">" + arr[j].url + "</a></p>";
-                    if (arr[j].arxiv_eprint)
-                        str += "<p>e-print: <a href=\"https://arxiv.org/abs/" + arr[j].arxiv_eprint + "\">" +
-                         arr[j].arxiv_eprint + "</a></p>";
-                    str += "</div>";
-                }
-
-                // if the abstract field is not empty, print it in a collapsible div
-                if (arr[j].abstract) {
-                    str += "<button type=\"button\" class=\"collapsible\">Abstract</button>";
-                    str += "<div class=\"content\">";
-                    str += "<p>" + arr[j].abstract + "</p>";
-                    str += "</div>";
-                }
-
-                str += "</div>"; // end articleBlock
-                str += "<br>";
+            // if the author field is not empty, print it
+            if (yearItems[j].author)
+                str += "<p>" + yearItems[j].author;
+                if (yearItems[j].first_author_affiliation)
+                    str += " (" + yearItems[j].first_author_affiliation + ")";
+                if (yearItems[j].et_al)
+                    str += " et al.";
+                if (yearItems[j].date)
+                    str += " (" + yearItems[j].date + ")";
+                str += "</p>";
+            
+            // if the journal fields are not empty, print them
+            // along with any volume number, issue number, page numbers, year
+            if (yearItems[j].journal) {
+                if (yearItems[j].journal)
+                    str += "<p>" + yearItems[j].journal;
+                if (yearItems[j].volume)
+                    str += ", vol. " + yearItems[j].volume;
+                if (yearItems[j].number)
+                    str += ", no. " + yearItems[j].number;
+                if (yearItems[j].pages)
+                    str += ", pp. " + yearItems[j].pages;
+                if (yearItems[j].pub_year)
+                    str += " (" + yearItems[j].pub_year + ")";
+                str += "</p>";
             }
+
+            // if the url, doi, or arxiv_eprint fields are not empty, print them as links
+            // in a collapsible div
+            if (yearItems[j].url || yearItems[j].doi) {
+                str += "<button type=\"button\" class=\"collapsible\">Links</button>";
+                str += "<div class=\"content\">";
+                if (yearItems[j].doi)
+                    str += "<p><a href=\"https://doi.org/" + yearItems[j].doi + "\">" +
+                     yearItems[j].doi + "</a></p>";
+                if (yearItems[j].url)
+                    str += "<p><a href=\"" + yearItems[j].url + "\">" + yearItems[j].url + "</a></p>";
+                if (yearItems[j].arxiv_eprint)
+                    str += "<p>e-print: <a href=\"https://arxiv.org/abs/" + yearItems[j].arxiv_eprint + "\">" +
+                     yearItems[j].arxiv_eprint + "</a></p>";
+                str += "</div>";
+            }
+
+            // if the abstract field is not empty, print it in a collapsible div
+            if (yearItems[j].abstract) {
+                str += "<button type=\"button\" class=\"collapsible\">Abstract</button>";
+                str += "<div class=\"content\">";
+                str += "<p>" + yearItems[j].abstract + "</p>";
+                str += "</div>";
+            }
+
+            str += "</div>"; // end articleContent
+            str += "</div>"; // end articleBlock
+            str += "<br>";
         }
     }
     return str;
