@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Cornelius",
+        "html_url": "https://github.com/Hendrik1704/Cornelius",
+        "description": "Modern implementation of the Cornelius algorithm to find freeze-out hypersurfaces from relativistic hydrodynamics",
+        "stargazers_count": 1
+    },
+    {
+        "name": "EBE-PREEQ-HYDRO-TRANSPORT",
+        "html_url": "https://github.com/Hendrik1704/EBE-PREEQ-HYDRO-TRANSPORT",
+        "description": "Evolution suite for full event-by-event simulations for heavy-ion collisions using energy-momentum tensor files.",
+        "stargazers_count": 0
+    },
+    {
+        "name": "GP_EOS_generator",
+        "html_url": "https://github.com/Hendrik1704/GP_EOS_generator",
+        "description": "Gaussian Process emulator with physics constraints to determine an EOS in different dimensions",
+        "stargazers_count": 0
+    },
+    {
+        "name": "hendrik1704.github.io",
+        "html_url": "https://github.com/Hendrik1704/hendrik1704.github.io",
+        "description": "",
+        "stargazers_count": 0
+    }
+]

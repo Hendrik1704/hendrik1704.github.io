@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hendrik1704.github.io/sitemap.xml

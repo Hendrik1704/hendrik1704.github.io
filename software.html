@@ -10,22 +10,34 @@
     <title>Software</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Software developed by Hendrik Roch">
+    <meta name="description" content="Open-source software for high-energy nuclear physics developed by Hendrik Roch, including SPARKX, GPBayesTools-HIC, and CRONOS.">
     <meta name="keywords" content="software, code, development">
     <meta name="author" content="Hendrik Roch">
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="canonical" href="https://hendrik1704.github.io/software.html">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="/styles/style.css">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Software | Hendrik Roch">
+    <meta property="og:description" content="Open-source software for high-energy nuclear physics developed by Hendrik Roch, including SPARKX, GPBayesTools-HIC, and CRONOS.">
+    <meta property="og:url" content="https://hendrik1704.github.io/software.html">
+    <meta property="og:image" content="https://hendrik1704.github.io/images/hendrik.jpg">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Software | Hendrik Roch">
+    <meta name="twitter:description" content="Open-source software for high-energy nuclear physics developed by Hendrik Roch.">
+    <meta name="twitter:image" content="https://hendrik1704.github.io/images/hendrik.jpg">
+
     <style>
         /* Styling for repository links */
         .repo-links {
             margin-top: 30px;
             text-align: left;
             font-size: 18px;
-            color: #047857;
+            color: var(--accent);
         }
 
         .repo-links a {
-            color: #047857;
+            color: var(--accent);
             text-decoration: none;
             font-weight: bold;
         }
@@ -37,12 +49,12 @@
         /* Styling for GitHub profile link */
         .github-link {
             font-size: 20px;
-            color: #065f46;
+            color: var(--accent-dark);
             margin-bottom: 20px;
         }
 
         .github-link a {
-            color: #065f46;
+            color: var(--accent-dark);
             font-weight: bold;
         }
 
@@ -55,118 +67,111 @@
 <body>
   <div id="containerFlexible">
     <!-- header -->
-    <div class="header">
+    <header class="header">
       <h1 class="text-green-700">Software</h1>
-    </div>
+    </header>
 
     <!-- insert navigation bar -->
-    <script id="insert_menu" src="scripts/nav.js"></script>
+    <script id="insert_menu" src="/scripts/nav.js"></script>
 
-    <p class="text-green-800">
-      I develop open-source software for high-energy nuclear physics, focusing on
-      simulation frameworks, data analysis, and Bayesian inference tools.
-      My work emphasizes modular design, performance, and reproducibility.
-    </p>
+    <main>
+      <p class="text-green-800">
+        I develop open-source software for high-energy nuclear physics, focusing on
+        simulation frameworks, data analysis, and Bayesian inference tools.
+        My work emphasizes modular design, performance, and reproducibility.
+      </p>
 
-    
-    <h2 class="text-green-700">Featured Software</h2>
-    
-    <div class="repo-links">
-      
-      <div style="margin-bottom: 20px;">
-        <a href="https://github.com/smash-transport/sparkx" target="_blank">SPARKX</a><br>
-        <span class="text-green-800">
-          A modular framework for analyzing heavy-ion collision data, including tools
-          for event processing, observable computation, and statistical analysis.
-        </span><br>
-        <span style="font-size: 14px; color: #065f46;">
-          Python • Data Analysis • Heavy-Ion Physics
-        </span>
+      <h2 class="text-green-700">Featured Software</h2>
+
+      <div class="repo-links">
+
+        <div style="margin-bottom: 20px;">
+          <a href="https://github.com/smash-transport/sparkx" target="_blank" rel="noopener">SPARKX</a><br>
+          <span class="text-green-800">
+            A modular framework for analyzing heavy-ion collision data, including tools
+            for event processing, observable computation, and statistical analysis.
+          </span><br>
+          <span style="font-size: 14px; color: var(--accent-dark);">
+            Python &bull; Data Analysis &bull; Heavy-Ion Physics
+          </span>
+        </div>
+
+        <div style="margin-bottom: 20px;">
+          <a href="https://github.com/Hendrik1704/NFDistributionTraining" target="_blank" rel="noopener">Normalizing Flow Toolkit</a><br>
+          <span class="text-green-800">
+            JAX-based implementation of normalizing flows for Bayesian inference and
+            high-dimensional probability modeling in physics applications.
+          </span><br>
+          <span style="font-size: 14px; color: var(--accent-dark);">
+            Python &bull; JAX &bull; Bayesian Inference &bull; Probability Modeling
+          </span>
+        </div>
+
+        <!-- GPBayesTools-HIC -->
+        <div style="margin-bottom: 20px;">
+          <a href="https://github.com/Hendrik1704/GPBayesTools-HIC" target="_blank" rel="noopener">GPBayesTools-HIC</a><br>
+          <span class="text-green-800">
+            Gaussian-process-based Bayesian inference toolkit for heavy-ion collisions,
+            integrating emulator construction with advanced Monte Carlo sampling methods
+            for efficient parameter estimation.
+          </span><br>
+          <span style="font-size: 14px; color: var(--accent-dark);">
+            Python &bull; Gaussian Processes &bull; Bayesian Inference &bull; MCMC
+          </span>
+        </div>
+
+        <!-- CRONOS -->
+        <div style="margin-bottom: 20px;">
+          <a href="https://github.com/Hendrik1704/CRONOS" target="_blank" rel="noopener">CRONOS</a><br>
+          <span class="text-green-800">
+            A workflow orchestration framework for large-scale heavy-ion collision simulations,
+            managing pipelines from initial conditions to final observables across distributed systems.
+          </span><br>
+          <span style="font-size: 14px; color: var(--accent-dark);">
+            Python &bull; HPC &bull; Workflow Management &bull; Simulation Pipelines
+          </span>
+        </div>
+
       </div>
-      
-      <div style="margin-bottom: 20px;">
-        <a href="https://github.com/Hendrik1704/NFDistributionTraining" target="_blank">Normalizing Flow Toolkit</a><br>
-        <span class="text-green-800">
-          JAX-based implementation of normalizing flows for Bayesian inference and
-          high-dimensional probability modeling in physics applications.
-        </span><br>
-        <span style="font-size: 14px; color: #065f46;">
-          Python • JAX • Bayesian Inference • Probability Modeling
-        </span>
+
+      <div class="github-link">
+        <a href="https://github.com/Hendrik1704" target="_blank" rel="noopener">For more repositories visit my GitHub Profile</a>
       </div>
 
-      <!-- GPBayesTools-HIC -->
-      <div style="margin-bottom: 20px;">
-        <a href="https://github.com/Hendrik1704/GPBayesTools-HIC" target="_blank">GPBayesTools-HIC</a><br>
-        <span class="text-green-800">
-          Gaussian-process-based Bayesian inference toolkit for heavy-ion collisions,
-          integrating emulator construction with advanced Monte Carlo sampling methods
-          for efficient parameter estimation.
-        </span><br>
-        <span style="font-size: 14px; color: #065f46;">
-          Python • Gaussian Processes • Bayesian Inference • MCMC
-        </span>
-      </div>
-
-      <!-- CRONOS -->
-      <div style="margin-bottom: 20px;">
-        <a href="https://github.com/Hendrik1704/CRONOS" target="_blank">CRONOS</a><br>
-        <span class="text-green-800">
-          A workflow orchestration framework for large-scale heavy-ion collision simulations,
-          managing pipelines from initial conditions to final observables across distributed systems.
-        </span><br>
-        <span style="font-size: 14px; color: #065f46;">
-          Python • HPC • Workflow Management • Simulation Pipelines
-        </span>
-      </div>
-      
-    </div>
-
-    <div class="github-link">
-      <a href="https://github.com/Hendrik1704" target="_blank">For more repositories visit my GitHub Profile</a>
-    </div>
-
-    <!-- main content -->
-    <div class="repo-links"></div> <!-- Placeholder for dynamically loaded repository links -->
-  
+      <!-- Populated from data/repos.json, which is refreshed weekly by
+           the "Update software list" GitHub Action (see
+           .github/workflows/update-software.yml) -->
+      <div class="repo-links"></div>
+    </main>
   </div>
 
-  <!-- Fetching GitHub Repositories dynamically -->
   <script>
-    fetch('https://api.github.com/users/Hendrik1704/repos?per_page=100')
-    .then(response => response.json())
-    .then(data => {
-      const repoLinksDiv = document.querySelectorAll('.repo-links')[1];
+    fetch('/data/repos.json')
+      .then(response => response.json())
+      .then(repos => {
+        const repoLinksDiv = document.querySelectorAll('.repo-links')[1];
+        let repoList = '<h2 class="text-green-700">Other Projects</h2><ul>';
 
-      // Repos already featured
-      const featuredRepos = [
-        "sparkx",
-        "NFDistributionTraining",
-        "GPBayesTools-HIC",
-        "CRONOS"
-      ];
+        repos.forEach(repo => {
+          repoList += `
+            <li>
+              <a href="${repo.html_url}" target="_blank" rel="noopener">${repo.name}</a>
+              <span class="text-green-800"> – ${repo.description || 'No description available.'}</span>
+            </li>`;
+        });
 
-      // Filter: remove forks AND featured repos
-      const repos = data
-        .filter(repo => !repo.fork && !featuredRepos.includes(repo.name))
-        .sort((a, b) => b.stargazers_count - a.stargazers_count);
-
-      let repoList = '<h2 class="text-green-700">Other Projects</h2><ul>';
-
-      repos.forEach(repo => {
-        repoList += `
-          <li>
-            <a href="${repo.html_url}" target="_blank">${repo.name}</a>
-            <span class="text-green-800"> – ${repo.description || 'No description available.'}</span>
-          </li>`;
+        repoList += '</ul>';
+        repoLinksDiv.innerHTML = repoList;
+      })
+      .catch(error => {
+        console.error('Error loading repository list:', error);
       });
-
-      repoList += '</ul>';
-      repoLinksDiv.innerHTML = repoList;
-    })
-    .catch(error => {
-      console.error('Error fetching GitHub repositories:', error);
-    });
   </script>
+
+  <!-- Back to top button -->
+  <script id="insert_backtotop" src="/scripts/backToTop.js"></script>
+
+  <!-- Footer -->
+  <script id="insert_footer" src="/scripts/footer.js"></script>
 </body>
 </html>

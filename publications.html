@@ -10,11 +10,12 @@
     <title>Publications</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Publications by Hendrik Roch">
-    <meta name="keywords" content="publications, research, articles">
+    <meta name="description" content="Peer-reviewed publications by Hendrik Roch on heavy-ion collisions, initial-state physics, and Bayesian inference for QCD matter.">
+    <meta name="keywords" content="publications, research, articles, heavy-ion physics">
     <meta name="author" content="Hendrik Roch">
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="canonical" href="https://hendrik1704.github.io/publications.html">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="/styles/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>
@@ -24,17 +25,28 @@
         }
       };
     </script>
-    <script id="script_tables" src="scripts/tables.js"></script>
-    <script id="script_publications" src="scripts/publications.js"></script>
+    <script id="script_tables" src="/scripts/tables.js"></script>
+    <script id="script_publications" src="/scripts/publications.js"></script>
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Publications | Hendrik Roch">
+    <meta property="og:description" content="Peer-reviewed publications by Hendrik Roch on heavy-ion collisions, initial-state physics, and Bayesian inference for QCD matter.">
+    <meta property="og:url" content="https://hendrik1704.github.io/publications.html">
+    <meta property="og:image" content="https://hendrik1704.github.io/images/hendrik.jpg">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Publications | Hendrik Roch">
+    <meta name="twitter:description" content="Peer-reviewed publications by Hendrik Roch on heavy-ion collisions, initial-state physics, and Bayesian inference for QCD matter.">
+    <meta name="twitter:image" content="https://hendrik1704.github.io/images/hendrik.jpg">
+
     <style>
       .pub-style a {
-        color: #047857;
+        color: var(--accent);
         text-decoration: none;
       }
-  
+
       .pub-style a:hover {
         text-decoration: underline;
-        color: #065f46;
+        color: var(--accent-dark);
       }
     </style>
 </head>
@@ -42,28 +54,27 @@
 <body onload="makeList()">
   <div id="containerFlexible">
     <!-- header -->
-    <div class="header">
+    <header class="header">
       <h1 class="text-green-700">Publications</h1>
-    </div>
+    </header>
 
     <!-- insert navigation bar -->
-    <script id="insert_menu" src="scripts/nav.js"></script>
+    <script id="insert_menu" src="/scripts/nav.js"></script>
 
     <!-- main content -->
-    <div class="pub-style">
+    <main class="pub-style">
       <div id="pubList">
-        <!-- publications.js will write the content using data/publications.json -->
+        <!-- publications.js will write the content using data/publications.json,
+             which is refreshed weekly by the "Update publications" GitHub
+             Action (see .github/workflows/update-publications.yml) -->
       </div>
-    </div>
+    </main>
   </div>
 
   <!-- Back to top button -->
-  <button id="backToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">&#8679; Top</button>
-  <script>
-    const btn = document.getElementById('backToTop');
-    window.addEventListener('scroll', () => {
-      btn.style.display = window.scrollY > 300 ? 'block' : 'none';
-    });
-  </script>
+  <script id="insert_backtotop" src="/scripts/backToTop.js"></script>
+
+  <!-- Footer -->
+  <script id="insert_footer" src="/scripts/footer.js"></script>
 </body>
 </html>

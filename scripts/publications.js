@@ -2,7 +2,7 @@
 // is loaded.  This script writes the html for the publications list
 // using data from the data/publications.json file.
 
-let pubDataFile = "data/publications.json";
+let pubDataFile = "/data/publications.json";
 let pubID = "#pubList";
 
 // The html for the publications list is passed to this function,
