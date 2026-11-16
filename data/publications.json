@@ -119,19 +119,24 @@
         "url": "https://inspirehep.net/literature/2969992",
         "title": "Nuclear Suppression in Diffractive Vector Meson Production within the Color Glass Condensate Framework",
         "authors": [
-            "M\u00e4ntysaari, Heikki",
             "Roch, Hendrik",
+            "M\u00e4ntysaari, Heikki",
             "Salazar, Farid",
             "Schenke, Bj\u00f6rn",
             "Shen, Chun",
             "Zhao, Wenbin"
         ],
-        "author": "M\u00e4ntysaari, Heikki; Roch, Hendrik; Salazar, Farid; Schenke, Bj\u00f6rn; Shen, Chun; Zhao, Wenbin",
+        "author": "Roch, Hendrik; M\u00e4ntysaari, Heikki; Salazar, Farid; Schenke, Bj\u00f6rn; Shen, Chun; Zhao, Wenbin",
         "earliest_date": "2025-09-16",
         "date": "September 16, 2025",
         "earliest_year": 2025,
         "arxiv_eprint": "2509.13015",
-        "abstract": "We extend a recent global Bayesian analysis of diffractive $\\mathrm{J}/\u03c8$ production in $\u03b3+p$ and $\u03b3+\\mathrm{Pb}$ collisions within the color glass condensate (CGC) framework to investigate potential modifications of the nucleon structure inside nuclei. To this end, we perform fits that allow the effective nucleon structure parameters in Pb nuclei to differ from those of free protons. This approach directly addresses the question of whether the proton's spatial gluon distribution at intermediate to large $x$ is modified in the nuclear environment. We compare results obtained with shared and independent nucleon structure parameters and assess the impact on the simultaneous description of $\u03b3+p$ data from HERA and the LHC, as well as $\u03b3+\\mathrm{Pb}$ data from the LHC. Our findings show that there is no hint of difference in the nucleon structure beyond those already present in the CGC when embedding nucleons inside a nuclear environment."
+        "abstract": "We extend a recent global Bayesian analysis of diffractive $\\mathrm{J}/\\psi$ production in $\\gamma+p$ and $\\gamma+\\mathrm{Pb}$ collisions within the color glass condensate (CGC) framework to investigate potential modifications of the nucleon structure inside nuclei.\u00a0To this end, we perform fits that allow the effective nucleon structure parameters in Pb nuclei to differ from those of free protons.\u00a0This approach directly addresses the question of whether the proton's spatial gluon distribution at intermediate to large $x$ is modified in the nuclear environment. We compare results obtained with shared and independent nucleon structure parameters and assess the impact on the simultaneous description of $\\gamma+p$ data from HERA and the LHC, as well as $\\gamma+\\mathrm{Pb}$ data from the LHC.\u00a0Our findings show that there is no hint of difference in the nucleon structure beyond those already present in the CGC when embedding nucleons inside a nuclear environment.",
+        "doi": "10.17161/arp7d181",
+        "journal": "Phys.Proc.UPC",
+        "volume": "2",
+        "pages": "9",
+        "pub_year": "2026"
     },
     {
         "id": 2964948,
